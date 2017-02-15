@@ -1697,6 +1697,9 @@ header{
   }
 }
 
+/*  TERRELL'S SIDEBAR 
+-----------------------------------------------------------------------------------*/
+
 .header.right-sidebar {
   left:0;
   -webkit-transform: translateX(-320px);
@@ -1707,6 +1710,65 @@ header{
   -moz-transition: all 0.25s ease-in-out 0s;
   -o-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-out 0s;
+  max-width:340px;
+}
+
+.toc {
+  max-width:320px;
+}
+
+.toc a {
+  padding:0 !important;
+  margin:0;
+  color:#ffffff;
+  
+}
+
+.toc a:hover {
+  background: rgba(162,162,162,0.1);
+  
+}
+
+.toc-wrap {
+  border-bottom:1px solid #535353;
+  padding:15px;
+  max-width:320px;
+
+}
+
+.gap-right {
+  margin-right: 10px; 
+}
+
+.toc-content {
+
+display:block;
+word-wrap: break-word;
+text-align:left;
+  color:#e1e1e1;
+
+    h4 {
+  font-size:20px;
+  padding:0;
+  text-transform: capitalize;
+
+  }
+
+  span {
+  text-transform:uppercase;
+  }
+}
+
+.top-nav-line #menu-open {
+  background: none;
+}
+
+.top-nav-line #menu-open {
+  background: none;
+}
+
+.top-nav-line #menu-open .icon-bar {
+  background-color:#fff;
 }
 
 
