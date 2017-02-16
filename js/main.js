@@ -520,18 +520,18 @@ $(document).ready(function(){
 
   /* add class fixed for top-nav-line slide menu
   -------------------------------------------------------------------*/
-  if($(".top-nav-line").length>0) {
-    $(window).scroll(function(){
-      var navHeight = windowHeight - 69;
-      var window_top = $(window).scrollTop() - navHeight; 
-      var div_top = $('#nav-anchor').offset().top;
-        if (window_top > div_top) {
-            $('.top-nav-line').addClass('fixed');
-        } else {
-            $('.top-nav-line').removeClass('fixed');
-        } 
-    });
-  }
+  // if($(".top-nav-line").length>0) {
+  //   $(window).scroll(function(){
+  //     var navHeight = windowHeight - 69;
+  //     var window_top = $(window).scrollTop() - navHeight; 
+  //     var div_top = $('#nav-anchor').offset().top;
+  //       if (window_top > div_top) {
+  //           $('.top-nav-line').addClass('fixed');
+  //       } else {
+  //           $('.top-nav-line').removeClass('fixed');
+  //       } 
+  //   });
+  // }
 
   /* Current Navigation 
   --------------------------------------------------------------------*/ 
