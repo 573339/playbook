@@ -39,12 +39,7 @@ a.default-hovered:hover:after, a.default-hovered.default-hover:after{
 	opacity:0.8;
 }
 
-.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
-.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
-.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
-.top-nav-line #menu-open .icon-bar {
-	background-color: $myColor;
-}
+
 .header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
 .header.top-menu.transform-menu .primary .navbar .btn-navbar, 
 .header.minimized-menu .primary .navbar .btn-navbar {
@@ -94,19 +89,7 @@ a.default-hovered:focus:after {
 			background:  #bbbbbb;	
 	}
 }
-/*Primary
----------------------------------------------*/
-.primary-banner h1 {
-	margin-bottom: 30px;
-}
-.primary-banner p.tlt {
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 30px;
-	@media(max-width:767px){
-		font-size: 18px;
-	}
-}
+
 
 /* About
 ------------------------------------------------------------------------------------*/
