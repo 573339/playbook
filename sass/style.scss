@@ -1754,7 +1754,7 @@ h1 {
 }
 
 .top-nav-line.scrolling {
-    background-color: #253746;
+    background-color: #00A6B6;
     height: 65px;
 
 }
@@ -1776,13 +1776,20 @@ h1 {
   padding: 50px;
     background-color: #fff;
     position: relative;
-    top: -117px
+    top: -117px;
+    text-align: left;
 }
 
 
 
 /*  TERRELL'S INTRO
 -----------------------------------------------------------------------------------*/
+
+.lead {
+  color:#00A6B6;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 35px;
+}
 
 .intro-section {
 width: 100%;
@@ -1824,6 +1831,7 @@ p {
 
 
 }
+
 
 /*  TERRELL'S SIDEBAR 
 -----------------------------------------------------------------------------------*/
@@ -1916,6 +1924,28 @@ background-color:#fff;
 
 /*  TERRELL'S CHAPTERS 
 -----------------------------------------------------------------------------------*/
+
+.title-wrap {
+  width:700px;
+  margin: 0 auto;
+}
+
+.chap-cover {
+  font-family: 'Oswald', sans-serif;
+  color:#fff;
+  text-transform:uppercase;
+
+  span {
+  font-size:20px;
+   letter-spacing:2px;
+   font-weight:lighter;
+  }
+
+  h2 {
+    font-size:55px;
+    font-weight:400;
+  }
+}
 
 .content p {
 margin:0;
