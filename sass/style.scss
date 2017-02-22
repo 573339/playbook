@@ -1674,10 +1674,7 @@ left: 33.3%;
 /*  TERRELL'S STYLES
 -----------------------------------------------------------------------------------*/
 
-.chapter-wrap {
-  display:block;
-  min-width: 980px;
-}
+
 
 .chapter1 {
     background: #000000 url("../images/chapter1-bkgd.jpg") no-repeat left top;
@@ -1792,6 +1789,7 @@ h4 {
   text-transform: uppercase;
   color:#00A6B6;
   font-size:18px;
+  letter-spacing:2px;
 }
 
 a {
@@ -1804,6 +1802,7 @@ margin-top:20px;
 
 p {
   color:#53565A;
+  margin-bottom:30px;
 }
 
 
