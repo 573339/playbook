@@ -1754,8 +1754,17 @@ h1 {
 }
 
 .top-nav-line.scrolling {
-    background-color: #000;
+    background-color: #253746;
+    height: 65px;
 
+}
+
+.top-nav-line img {
+  position:fixed;
+  top:4%;
+  left:50%;
+  margin-top:-10px;
+  margin-left:-92px;
 }
 
 #article-banner {
@@ -1769,6 +1778,8 @@ h1 {
     position: relative;
     top: -117px
 }
+
+
 
 /*  TERRELL'S INTRO
 -----------------------------------------------------------------------------------*/
