@@ -214,6 +214,7 @@ position: absolute;
 top: 0;
 width: 100%;
 z-index: 0;
+background-color:#000;
 
 .layer {
 -webkit-background-size: cover;
@@ -557,7 +558,7 @@ background: $whitecolor;
 border-bottom: 0 none;
 border:none;
 outline: none;
-padding: 10px 21px;
+padding: 20px 21px;
 width: 80px;
 @media(min-width:992px){
 margin: 20px 20px 0 0;
@@ -1672,28 +1673,46 @@ left: 33.3%;
 
 /*  TERRELL'S STYLES
 -----------------------------------------------------------------------------------*/
+
+.chapter-wrap {
+  display:block;
+  min-width: 980px;
+}
+
 .chapter1 {
-background-color:#1e2a36;
+    background: #000000 url("../images/chapter1-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .chapter2 {
-background-color:#33495d;
+background: #000000 url("../images/chapter2-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .chapter3 {
-background-color:#33495d;
+background: #000000 url("../images/chapter3-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .chapter4 {
-background-color:#0d1b27;
+background: #000000 url("../images/chapter4-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .chapter5 {
-background-color:#1e2a36;
+background: #000000 url("../images/chapter5-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .chapter6 {
-background-color:#33495d;
+background: #000000 url("../images/chapter6-bkgd.jpg") no-repeat left top;
+    background-size: cover;
+    width:100%;
 }
 
 .content {
@@ -1712,23 +1731,46 @@ font-weight:lighter;
 }
 }
 
-/*  TERRELL'S BANNER 
+/*  TERRELL'S BANNERS 
 -----------------------------------------------------------------------------------*/
 
 .bookcover {
 
 color:#fff;
 text-transform: uppercase;
+letter-spacing: 2px;
 
 p {
 font-size:24px;
+color:#96D5EA;
+font-weight:lighter;
 
 }
+
+h1 {
+  font-size:74px;
+}
+}
+
+.next-sections {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .top-nav-line.scrolling {
     background-color: #000;
 
+}
+
+#article-banner {
+  height:500px;
+  width:100%;
+}
+
+#article-wrap {
+  padding: 50px;
+    background-color: #fff;
+    position: relative;
+    top: -117px
 }
 
 /*  TERRELL'S INTRO
@@ -1746,13 +1788,22 @@ background-size: cover;
 
 .intro {
 
-color:#666;
+h4 {
+  text-transform: uppercase;
+  color:#00A6B6;
+  font-size:18px;
+}
+
 a {
 text-transform:uppercase;
 color:#666;
 padding:10px 50px;
 border:1px solid #666;
 margin-top:20px;
+}
+
+p {
+  color:#53565A;
 }
 
 
@@ -1811,12 +1862,21 @@ color:#e1e1e1;
 h4 {
 font-size:20px;
 padding:0;
-text-transform: capitalize;
+text-transform: uppercase;
+font-family: 'Oswald', sans-serif;
+font-weight:200;
+letter-spacing:1px;
+margin-bottom:15px;
 
 }
 
 span {
 text-transform:uppercase;
+font-family: 'Oswald', sans-serif;
+font-weight:100;
+color:#96d5ea;
+letter-spacing:1px;
+
 }
 }
 
@@ -1848,8 +1908,31 @@ margin:0;
 text-transform:uppercase;
 color:#fff;
 padding:10px 50px;
-border:1px solid #fff;
-margin-top:20px;
+background-color:#00a6b6;
+font-weight:200;
+letter-spacing:2px;
+}
+
+.articles a:hover {
+  border:1px solid #fff;
+  background:none;
+}
+
+.articles {
+  
+  h3 {
+    font-size:30px;
+    font-weight:400;
+    margin-bottom:30px;
+  }
+
+  p {
+   font-size:16px;
+   font-weight:200;
+   color:#96d5ea;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing:2px;
+  }
 }
 
 /*  SLIDERS PORTFOLIO STYLE 
