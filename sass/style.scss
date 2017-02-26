@@ -1796,11 +1796,36 @@ font-family: 'Oswald', sans-serif;
 }
 }
 
+.navbar-right {
+  margin-right:20px;
+}
 
+.navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 
 /*  TERRELL'S INTRO
 -----------------------------------------------------------------------------------*/
+
+blockquote p {
+  margin-bottom:15px;
+      color: #D3461E;
+    font-weight: 400;
+}
+
+.quote {
+  margin-bottom:30px;
+}
 
 .lead {
 color:#00A6B6;

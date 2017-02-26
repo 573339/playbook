@@ -268,15 +268,11 @@ table {
 /* style for blockquote
 ----------------------------------------------------*/
 blockquote{
-	position: relative;
-	text-align: center;
-  position: relative;
-  padding: 23px 60px 10px 60px;
+  padding:0;
   border: none;
-  margin: 50px 0 5px 0;
+  margin-left:10px;
   @include rem(font-size, 24px);
   font-weight: 300;
-  letter-spacing: -1px;
   line-height: 1.58;
   @media(max-width:767px){
   	@include rem(font-size, 16px);
@@ -284,7 +280,6 @@ blockquote{
   }
 	&:before {
 	  background: rgba(0, 0, 0, 0.13);
-	  content: ' ';
 	  height: 2px;
 	  left: 50%;
 	  margin-left: -20px;
@@ -299,7 +294,6 @@ blockquote{
 	  position: absolute;
 	  top: 26px;
 	  left: 0;
-	  background-image: url(../images/blockquote-bg.png);
 	  background-position: 0 center;
 	  background-repeat: no-repeat;
 	  @media(max-width:767px){
@@ -309,7 +303,8 @@ blockquote{
 	  }
 	}
 	footer {
-		margin-top: 15px;
+		margin-bottom:30px;
+		font-size:14px;
 		&:before{
 			display: none;
 		}
