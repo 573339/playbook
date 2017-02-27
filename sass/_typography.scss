@@ -270,6 +270,7 @@ table {
 /* style for blockquote
 ----------------------------------------------------*/
 blockquote{
+font-family: 'Open Sans', sans-serif;
   padding:0;
   border: none;
   margin-left:10px;
@@ -305,6 +306,7 @@ blockquote{
 	  }
 	}
 	footer {
+	font-family: 'Open Sans', sans-serif;
 		margin-bottom:30px;
 		font-size:14px;
 		&:before{
