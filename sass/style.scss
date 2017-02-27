@@ -1814,6 +1814,16 @@ background-color: rgba(255, 255, 255, 0.2);
 }
 
 
+/*  TERRELL'S RESPONSIVE
+-----------------------------------------------------------------------------------*/
+
+  @media screen and (min-width:768px){
+    .grey-bkgd {
+    padding: 90px 0 0 0 !important;
+    }
+  }
+
+
 /*  TERRELL'S INTRO
 -----------------------------------------------------------------------------------*/
 
@@ -1831,6 +1841,14 @@ blockquote p {
 color:#00A6B6;
 font-family: 'Open Sans', sans-serif;
 line-height: 35px;
+}
+
+.wht-lead {
+color:#fff;
+font-family: 'Open Sans', sans-serif;
+line-height: 35px;
+font-size:21px;
+font-weight:lighter;
 }
 
 .content-section {
@@ -2054,6 +2072,47 @@ letter-spacing:2px;
 .highlight > span {
   color:#035157;
   font-weight:bold;
+}
+
+.sec-highlight > span {
+  color:#00A6B6;
+  font-weight:bold;
+}
+
+ol.list-style {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75;
+}
+
+
+
+
+
+/*  TERRELL'S SECTION--CHAPTER 3
+-----------------------------------------------------------------------------------*/
+
+.grey-bkgd {
+  background-color:#f3f3f3;
+  padding:90px;
+  position:relative;
+  margin-bottom: 50px;
+}
+
+.blue-bkgd {
+  background-color:#00A6B6;
+  padding:90px;
+  position:relative;
+  color:#fff;
+}
+
+.graphic {
+  position:relative;
+  margin-bottom:50px;
+}
+.divider {
+  border-bottom:1px solid #53565A;
+  padding-bottom:40px;
+  margin-bottom:40px;
 }
 
 /*  SLIDERS PORTFOLIO STYLE 
@@ -2598,6 +2657,7 @@ font-size: 12px;
 padding: 15px;
 text-align: center;
 background-color: #263846;
+margin-top: 100px;
 
 span {
 font-family: 'Open Sans', sans-serif;
