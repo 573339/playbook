@@ -273,6 +273,7 @@ blockquote{
 font-family: 'Open Sans', sans-serif;
   padding:0;
   border: none;
+  margin-bottom: 0;
   margin-left:10px;
   @include rem(font-size, 24px);
   font-weight: 300;
@@ -307,7 +308,6 @@ font-family: 'Open Sans', sans-serif;
 	}
 	footer {
 	font-family: 'Open Sans', sans-serif;
-		margin-bottom:30px;
 		font-size:14px;
 		&:before{
 			display: none;
