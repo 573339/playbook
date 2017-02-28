@@ -1873,6 +1873,76 @@ background-color: rgba(255, 255, 255, 0.2);
   }
 
 
+  /*  TERRELL'S CONTACT 
+-----------------------------------------------------------------------------------*/
+
+.dropdown-menu {
+  min-width:312px;
+  padding:15px 0;
+}
+
+.contact {
+
+list-style:none;
+  
+  h5 {
+  color:#00A6B6;
+  margin:0;
+  font-weight:400;
+  font-size:12px;
+  line-height: 15px;
+  }
+
+  a {
+  margin:0;
+  font-size:12px;
+  color:#D50058;
+  }
+
+  a:hover {
+  color:#00A6B6;
+  }
+
+  span {
+  color:#53565A;
+  font-size:12px;
+      display: block;
+    line-height: 18px;
+  }
+}
+
+h5 > i {
+  color:#53565A;
+  text-transform:capitalize;
+}
+
+.contact-wrap {
+  display:block;
+}
+
+.menu-divider {
+    border-bottom: 1px solid #e1e1e1;
+    display: inline-block;
+}
+
+.contact-wrap ul li {
+  text-decoration:none;
+  list-style:none;
+}
+
+.dropdown-menu ul li {
+list-style:none;
+  
+}
+
+.contact-img img {
+  position:relative;
+  top: -9px;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    border:1px solid #f3f3f3;
+}
 /*  CHAPTER ONE
 -----------------------------------------------------------------------------------*/
 
