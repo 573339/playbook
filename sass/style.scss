@@ -1826,7 +1826,7 @@ margin-left:-92px;
 }
 
 #article-banner {
-height:500px;
+height:650px;
 width:100%;
 }
 
@@ -1834,7 +1834,7 @@ width:100%;
 padding: 50px;
 background-color: #fff;
 position: relative;
-top: -117px;
+top: -60px;
 text-align: left;
 
 h2 {
@@ -2037,15 +2037,6 @@ font-weight:lighter;
     margin-top: -65px;
 }
 
-.intro-section {
-width: 100%;
-padding: 50px 0;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-font-family: 'Open Sans', sans-serif;
-}
 
 .intro {
 
@@ -2175,9 +2166,22 @@ background-color:#fff;
 /*  TERRELL'S CHAPTERS 
 -----------------------------------------------------------------------------------*/
 
+#border {
+    width: 100px;
+    border-bottom: 15px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .title-wrap {
 width:700px;
 margin: 0 auto;
+
+h1 {
+font-weight:400;
+font-size:80px;
+  
+}
 }
 
 .list-wrap {
@@ -2192,13 +2196,17 @@ color:#fff;
 text-transform:uppercase;
 
 span {
-font-size:20px;
+font-size:24px;
 letter-spacing:2px;
-font-weight:lighter;
+font-weight:300;
+display:block;
+    margin: 45px auto;
+    width: 300px;
+    text-align: center;
 }
 
 h2 {
-font-size:65px;
+font-size:230px;
 font-weight:400;
 }
 }
