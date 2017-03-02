@@ -27,6 +27,13 @@ if (scrollWidth === undefined) {
 -------------------------------------------------------------------------------*/
 
 $(document).ready(function(){
+
+  //image zoom feature
+  $('.imageZoom').click(function(){
+    $('#imageModal .modal-body').empty().append($(this).clone());
+    $('#imageModal').modal();
+  });
+
   if($(".fixed-height").length>0) {
     fixedheight();
   }
