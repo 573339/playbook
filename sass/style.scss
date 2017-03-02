@@ -1675,23 +1675,24 @@ left: 33.3%;
 }
 }
 
-/*  CHAPTER 6 PARALLAX
+/*  PARALLAX 
 -----------------------------------------------------------------------------------*/
 
-.caption p {
-  color:#fff;
-  background-color:#000;
-}
+.bkgd-6 {
+  /* The image used */
+    background-image: url("../images/sections/chap6-01.jpg");
+    position:relative;
 
-.bgimg-1 {
-  background-image:url("../images/background/7.jpg");
-  height:500px;
-  background-attachment: fixed;
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
 }
+
 
 /*  CHAPTER NAVIGATION STYLES
 -----------------------------------------------------------------------------------*/
