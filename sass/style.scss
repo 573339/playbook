@@ -1675,6 +1675,24 @@ left: 33.3%;
 }
 }
 
+/*  CHAPTER 6 PARALLAX
+-----------------------------------------------------------------------------------*/
+
+.caption p {
+  color:#fff;
+  background-color:#000;
+}
+
+.bgimg-1 {
+  background-image:url("../images/background/7.jpg");
+  height:500px;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
 /*  CHAPTER NAVIGATION STYLES
 -----------------------------------------------------------------------------------*/
 
@@ -1718,37 +1736,37 @@ border:1px solid #00a6b6;
 
 
 .chapter1 {
-background: #000000 url("../images/chapter1-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-1.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
 
 .chapter2 {
-background: #000000 url("../images/chapter2-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-2.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
 
 .chapter3 {
-background: #000000 url("../images/chapter3-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-3.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
 
 .chapter4 {
-background: #000000 url("../images/chapter4-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-4.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
 
 .chapter5 {
-background: #000000 url("../images/chapter5-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-5.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
 
 .chapter6 {
-background: #000000 url("../images/chapter6-bkgd.jpg") no-repeat left top;
+background: #000000 url("../images/background/chapter-6.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 }
@@ -2079,7 +2097,7 @@ transform: translateX(-320px);
 -moz-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-out 0s;
-max-width:340px;
+max-width:265px;
 }
 
 .toc {
