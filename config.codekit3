@@ -57,7 +57,7 @@
 		},
 	"\/chapter6.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter6.html",
 		"oF": 0
 		},
@@ -224,16 +224,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/promo-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1001,11 +991,91 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/agile-5.png": {
+		"ft": 32768,
+		"iS": 11710,
+		"oA": 0,
+		"oAP": "\/images\/icons\/agile-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/architect-5.png": {
+		"ft": 32768,
+		"iS": 8656,
+		"oA": 0,
+		"oAP": "\/images\/icons\/architect-5.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/assess-6.png": {
 		"ft": 32768,
 		"iS": 9955,
 		"oA": 0,
 		"oAP": "\/images\/icons\/assess-6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/cloud-5.png": {
+		"ft": 32768,
+		"iS": 10774,
+		"oA": 0,
+		"oAP": "\/images\/icons\/cloud-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/contracts-5.png": {
+		"ft": 32768,
+		"iS": 11958,
+		"oA": 0,
+		"oAP": "\/images\/icons\/contracts-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/cyber-5.png": {
+		"ft": 32768,
+		"iS": 7938,
+		"oA": 0,
+		"oAP": "\/images\/icons\/cyber-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/data-4.png": {
+		"ft": 32768,
+		"iS": 7033,
+		"oA": 0,
+		"oAP": "\/images\/icons\/data-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/data-5.png": {
+		"ft": 32768,
+		"iS": 11158,
+		"oA": 0,
+		"oAP": "\/images\/icons\/data-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/decision-4.png": {
+		"ft": 32768,
+		"iS": 6781,
+		"oA": 0,
+		"oAP": "\/images\/icons\/decision-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/devs-4.png": {
+		"ft": 32768,
+		"iS": 7417,
+		"oA": 0,
+		"oAP": "\/images\/icons\/devs-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/devs-5.png": {
+		"ft": 32768,
+		"iS": 10115,
+		"oA": 0,
+		"oAP": "\/images\/icons\/devs-5.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1038,6 +1108,70 @@
 		"iS": 10962,
 		"oA": 0,
 		"oAP": "\/images\/icons\/monitor-6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/network-5.png": {
+		"ft": 32768,
+		"iS": 7823,
+		"oA": 0,
+		"oAP": "\/images\/icons\/network-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/play1-4.png": {
+		"ft": 32768,
+		"iS": 7585,
+		"oA": 0,
+		"oAP": "\/images\/icons\/play1-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/play2-4.png": {
+		"ft": 32768,
+		"iS": 6039,
+		"oA": 0,
+		"oAP": "\/images\/icons\/play2-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/play3-4.png": {
+		"ft": 32768,
+		"iS": 7115,
+		"oA": 0,
+		"oAP": "\/images\/icons\/play3-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/play4-4.png": {
+		"ft": 32768,
+		"iS": 7124,
+		"oA": 0,
+		"oAP": "\/images\/icons\/play4-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/play5-4.png": {
+		"ft": 32768,
+		"iS": 7395,
+		"oA": 0,
+		"oAP": "\/images\/icons\/play5-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/scientists-4.png": {
+		"ft": 32768,
+		"iS": 7477,
+		"oA": 0,
+		"oAP": "\/images\/icons\/scientists-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/sourcing-5.png": {
+		"ft": 32768,
+		"iS": 10399,
+		"oA": 0,
+		"oAP": "\/images\/icons\/sourcing-5.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1256,6 +1390,14 @@
 		"iS": 9221,
 		"oA": 0,
 		"oAP": "\/images\/pass.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/playbook-cover.jpg": {
+		"ft": 16384,
+		"iS": 710540,
+		"oA": 0,
+		"oAP": "\/images\/playbook-cover.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2358,6 +2500,14 @@
 		"iS": 214140,
 		"oA": 0,
 		"oAP": "\/images\/sections\/chap6-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap6-02.jpg": {
+		"ft": 16384,
+		"iS": 310984,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap6-02.jpg",
 		"oF": 0,
 		"opt": 0
 		},
