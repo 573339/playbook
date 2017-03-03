@@ -1625,15 +1625,15 @@ opacity: 1;
 }
 
 .articles {
- padding: 50px;
-  width: 350px;
-  text-align: center;
-  top: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+padding: 50px;
+width: 350px;
+text-align: center;
+top: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
 
 p {
 text-transform: uppercase;
@@ -1678,19 +1678,23 @@ left: 33.3%;
 /*  PARALLAX 
 -----------------------------------------------------------------------------------*/
 
-.bkgd-6 {
-  /* The image used */
-    background-image: url("../images/sections/chap6-01.jpg");
-    position:relative;
+.sections {
+position:relative;
+height: 500px; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
-    /* Set a specific height */
-    height: 500px; 
+.assessing {
+@extend .sections;
+background-image: url("../images/sections/chap6-01.jpg");
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.enterprise {
+@extend .sections;
+background-image: url("../images/sections/chap6-02.jpg");
 }
 
 
@@ -1698,36 +1702,36 @@ left: 33.3%;
 -----------------------------------------------------------------------------------*/
 
 .next {
-  position:relative;
-  font-size:18px;
-  color:#fff;
-  height:300px;
+position:relative;
+font-size:18px;
+color:#fff;
+height:300px;
 }
 
 .chap-nav {
-  text-align:center;
+text-align:center;
 }
 
 .chap-nav a {
-  color:#fff;
-  font-weight:lighter;
-  font-size:24px;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  border:1px solid #fff;
-  padding:15px 30px;
-  display: inline-block;
-  position: absolute;
-    /* top: 266%; */
-    left: 50%;
-    /* height: 30%; */
-    width: 50%;
-    margin: 10% 0 0 -25%;
-  
+color:#fff;
+font-weight:lighter;
+font-size:24px;
+text-transform:uppercase;
+letter-spacing:2px;
+border:1px solid #fff;
+padding:15px 30px;
+display: inline-block;
+position: absolute;
+/* top: 266%; */
+left: 50%;
+/* height: 30%; */
+width: 50%;
+margin: 10% 0 0 -25%;
+
 }
 
 .chap-nav a:hover {
-  background-color:#00a6b6;
+background-color:#00a6b6;
 border:1px solid #00a6b6;
 }
 
@@ -1854,12 +1858,12 @@ font-family: 'Oswald', sans-serif;
 }
 
 .navbar-right {
-  margin-right:20px;
+margin-right:20px;
 }
 
 .navbar-nav > li > a {
-    padding-top: 20px;
-    padding-bottom: 15px;
+padding-top: 20px;
+padding-bottom: 15px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -1867,7 +1871,7 @@ background-color: rgba(255, 255, 255, 0.2);
 }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: rgba(255, 255, 255, 0.2);
+background-color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -1876,102 +1880,102 @@ background-color: rgba(255, 255, 255, 0.2);
 
 
 
-  @media screen and (min-width:768px){
+@media screen and (min-width:768px){
 
-  .chap-nav a {
-    margin: 14% 0 0 -25% !important;
-  }
-    
-  }
+.chap-nav a {
+margin: 14% 0 0 -25% !important;
+}
 
-    @media screen and (min-width:1200px){
+}
 
-    .chap-nav a {
-    margin: 9% 0 0 -25% !important;
-  }
-  
-  }
+@media screen and (min-width:1200px){
+
+.chap-nav a {
+margin: 9% 0 0 -25% !important;
+}
+
+}
 
 
-  /*  TERRELL'S CONTACT 
+/*  TERRELL'S CONTACT 
 -----------------------------------------------------------------------------------*/
 
 .dropdown-menu {
-  min-width:312px;
-  padding:15px 0;
+min-width:312px;
+padding:15px 0;
 }
 
 .contact {
 
 list-style:none;
-  
-  h5 {
-  color:#00A6B6;
-  margin:0;
-  font-weight:400;
-  font-size:12px;
-  line-height: 15px;
-  }
 
-  a {
-  margin:0;
-  font-size:12px;
-  color:#D50058;
-  }
+h5 {
+color:#00A6B6;
+margin:0;
+font-weight:400;
+font-size:12px;
+line-height: 15px;
+}
 
-  a:hover {
-  color:#00A6B6;
-  }
+a {
+margin:0;
+font-size:12px;
+color:#D50058;
+}
 
-  span {
-  color:#53565A;
-  font-size:12px;
-      display: block;
-    line-height: 18px;
-  }
+a:hover {
+color:#00A6B6;
+}
+
+span {
+color:#53565A;
+font-size:12px;
+display: block;
+line-height: 18px;
+}
 }
 
 h5 > i {
-  color:#53565A;
-  text-transform:capitalize;
+color:#53565A;
+text-transform:capitalize;
 }
 
 .contact-wrap {
-  display:block;
+display:block;
 }
 
 .menu-divider {
-    border-bottom: 1px solid #e1e1e1;
-    display: inline-block;
+border-bottom: 1px solid #e1e1e1;
+display: inline-block;
 }
 
 .contact-wrap ul li {
-  text-decoration:none;
-  list-style:none;
+text-decoration:none;
+list-style:none;
 }
 
 .dropdown-menu ul li {
 list-style:none;
-  
+
 }
 
 .contact-img img {
-  position:relative;
-  top: -9px;
-    left: 0;
-    margin-top: 0;
-    margin-left: 0;
-    border:1px solid #f3f3f3;
+position:relative;
+top: -9px;
+left: 0;
+margin-top: 0;
+margin-left: 0;
+border:1px solid #f3f3f3;
 }
 /*  CHAPTER ONE
 -----------------------------------------------------------------------------------*/
 
 .icon-wrap {
-  text-align:center;
+text-align:center;
 }
 
 .icon-set > img {
-  margin-bottom:20px;
+margin-bottom:20px;
 }
 
 
@@ -1979,30 +1983,30 @@ list-style:none;
 -----------------------------------------------------------------------------------*/
 
 .global p {
-  margin-bottom:40px;
+margin-bottom:40px;
 }
 
 /*  HOW TO USE PLAYBOOK
 -----------------------------------------------------------------------------------*/
 
 .snippet h5 {
-  font-weight:lighter;
-  color:#00A6B6;
-  margin-bottom:8px;
+font-weight:lighter;
+color:#00A6B6;
+margin-bottom:8px;
 }
 
 /*  TERRELL'S INTRODUCTON
 -----------------------------------------------------------------------------------*/
 
 .global h5 {
-  font-weight:lighter;
-  color:#00A6B6;
-  border-bottom:1px solid #00A6B6; 
-  padding-bottom:15px;
+font-weight:lighter;
+color:#00A6B6;
+border-bottom:1px solid #00A6B6; 
+padding-bottom:15px;
 }
 
 .sidenote li {
-  list-style:circle;
+list-style:circle;
 }
 
 
@@ -2011,13 +2015,13 @@ list-style:none;
 
 
 blockquote p {
-  margin-bottom:15px;
-      color: #D3461E;
-    font-weight: 400;
+margin-bottom:15px;
+color: #D3461E;
+font-weight: 400;
 }
 
 .quote {
-  margin-bottom:30px;
+margin-bottom:30px;
 }
 
 .lead {
@@ -2035,8 +2039,8 @@ font-weight:lighter;
 }
 
 .content-section {
-      padding-top: 65px;
-    margin-top: -65px;
+padding-top: 65px;
+margin-top: -65px;
 }
 
 
@@ -2169,10 +2173,10 @@ background-color:#fff;
 -----------------------------------------------------------------------------------*/
 
 #border {
-    width: 100px;
-    border-bottom: 15px solid #fff;
-    text-align: center;
-    margin: 0 auto;
+width: 100px;
+border-bottom: 15px solid #fff;
+text-align: center;
+margin: 0 auto;
 }
 
 .title-wrap {
@@ -2182,7 +2186,7 @@ margin: 0 auto;
 h1 {
 font-weight:400;
 font-size:80px;
-  
+
 }
 }
 
@@ -2202,9 +2206,9 @@ font-size:24px;
 letter-spacing:2px;
 font-weight:300;
 display:block;
-    margin: 45px auto;
-    width: 300px;
-    text-align: center;
+margin: 45px auto;
+width: 300px;
+text-align: center;
 }
 
 h2 {
@@ -2255,24 +2259,24 @@ letter-spacing:2px;
 }
 
 .highlight {
-  margin-bottom:10px;
-  line-height: 1.75;
-  color:#53565A;
+margin-bottom:10px;
+line-height: 1.75;
+color:#53565A;
 }
 
 .highlight > span {
-  color:#035157;
-  font-weight:bold;
+color:#035157;
+font-weight:bold;
 }
 
 .sec-highlight > span {
-  color:#00A6B6;
-  font-weight:bold;
+color:#00A6B6;
+font-weight:bold;
 }
 
 ol.list-style {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.75;
+font-family: 'Open Sans', sans-serif;
+line-height: 1.75;
 }
 
 
@@ -2283,33 +2287,39 @@ ol.list-style {
 -----------------------------------------------------------------------------------*/
 
 .grey-bkgd {
-  background-color:#f3f3f3;
-  position:relative;
-  margin-bottom: 50px;
-  padding:50px 0;
+background-color:#f3f3f3;
+position:relative;
+margin-bottom: 50px;
+padding:50px 0;
 }
 
 .blue-bkgd {
-  background-color:#00A6B6;
-  padding:90px;
-  position:relative;
-  color:#fff;
+background-color:#00A6B6;
+padding:90px;
+position:relative;
+color:#fff;
 }
 
 .graphic {
-  position:relative;
-  margin-bottom:50px;
+position:relative;
+margin-bottom:50px;
 }
 .divider {
-  border-bottom:1px solid #53565A;
-  padding-bottom:40px;
-  margin-bottom:40px;
+border-bottom:1px solid #53565A;
+padding-bottom:40px;
+margin-bottom:40px;
 }
 
 .vid-wrap {
-  margin-bottom:50px;
+margin-bottom:50px;
 }
 
+
+/*  TERRELL'S SECTION--CHAPTER 5
+-----------------------------------------------------------------------------------*/
+.no-border {
+	border-bottom:none !important;
+}
 
 
 /*  SLIDERS PORTFOLIO STYLE 
