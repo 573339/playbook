@@ -2267,6 +2267,9 @@ main {
 
 /* Background 
 -----------------------------------------------------------------*/
+main > .background {
+  display: none; }
+
 .background {
   height: 100%;
   left: 0;
@@ -2276,6 +2279,16 @@ main {
   width: 100%;
   z-index: 0;
   background-color: #000; }
+  .background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -webkit-linear-gradient(left, #72A94E 0%, #00A5B5 100%);
+    background: linear-gradient(to right, #72A94E 0%, #00A5B5 100%);
+    opacity: .5; }
   .background .layer {
     -webkit-background-size: cover;
     background-position: 50% 50%;
@@ -2286,7 +2299,10 @@ main {
     overflow: hidden;
     position: absolute;
     top: 0;
-    width: 100%; }
+    width: 100%;
+    opacity: 1 !important;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1); }
     .background .layer.left-50 {
       z-index: 0; }
       @media (min-width: 768px) {
@@ -2576,7 +2592,8 @@ header.top-menu {
 /* Primary-banner-center-box
 ------------------------------------------------------------------*/
 .primary-banner {
-  width: 100%; }
+  width: 100%;
+  height: 100vh; }
   .primary-banner h1 {
     color: #fff;
     margin-bottom: 6px;
@@ -3755,28 +3772,31 @@ blockquote p {
   padding-top: 65px;
   margin-top: -65px; }
 
-.intro h4 {
-  text-transform: uppercase;
-  color: #00A6B6;
-  font-size: 18px;
-  font-size: 30px;
-  font-weight: 400;
-  font-family: 'Oswald', sans-serif; }
-.intro a {
-  border: 1px solid #00a6b6;
-  text-transform: uppercase;
-  color: #00a6b6;
-  padding: 10px 50px;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-  display: inline-block; }
-.intro a:hover {
-  border: 1px solid #00a6b6;
-  background-color: #00a6b6;
-  color: #fff; }
-.intro p {
-  color: #53565A;
-  margin-bottom: 30px; }
+.intro {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .intro h4 {
+    text-transform: uppercase;
+    color: #00A6B6;
+    font-size: 18px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif; }
+  .intro a {
+    border: 1px solid #00a6b6;
+    text-transform: uppercase;
+    color: #00a6b6;
+    padding: 10px 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    display: inline-block; }
+  .intro a:hover {
+    border: 1px solid #00a6b6;
+    background-color: #00a6b6;
+    color: #fff; }
+  .intro p {
+    color: #53565A;
+    margin-bottom: 30px; }
 
 /*  TERRELL'S SIDEBAR 
 -----------------------------------------------------------------------------------*/
@@ -3881,11 +3901,15 @@ blockquote p {
 .content h3 {
   font-size: 24px; }
 
-.gradientBorder, .chap-nav a, .articles a {
+.gradientBorder, .chap-nav a, .intro a, .articles a {
   border: 1px solid transparent;
   -o-border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: -webkit-linear-gradient(left, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch; }
+
+.transition, .intro a {
+  -webkit-transition: .3s ease-out all;
+  transition: .3s ease-out all; }
 
 .articles a {
   text-transform: uppercase;

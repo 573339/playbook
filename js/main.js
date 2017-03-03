@@ -47,9 +47,9 @@ $(document).ready(function(){
 
   /* primary-banner
   -----------------------------------------------------------------*/
-  if($(".heightPrimaryBanner").length>0) {
-    heightPrimaryBanner();
-  }
+  // if($(".heightPrimaryBanner").length>0) {
+  //   heightPrimaryBanner();
+  // }
 
   /* appear-block 
   ----------------------------------------------------------------*/
