@@ -1704,15 +1704,15 @@ left: 33.3%;
   height:300px;
 }
 
-.chap-nav {
-  text-align:center;
-}
+
 
 .chap-nav a {
+  @extend .gradientBorder;
   color:#fff;
   font-weight:lighter;
   font-size:24px;
   text-transform:uppercase;
+  text-align:center;
   letter-spacing:2px;
   border:1px solid #fff;
   padding:15px 30px;
@@ -1723,6 +1723,7 @@ left: 33.3%;
     /* height: 30%; */
     width: 50%;
     margin: 10% 0 0 -25%;
+    transition: .3s ease-out all;
   
 }
 
@@ -2221,15 +2222,21 @@ margin:0;
 font-size:24px;
 }
 
+.gradientBorder{
+	border: 1px solid transparent;
+	border-image: linear-gradient(to right, #72A94E 0%,#00A5B5 100%) 1 stretch;
+}
+
 .articles a {
 text-transform:uppercase;
 color:#fff;
-border:1px solid #fff;
 background:none;
 padding:10px 50px;
 font-weight:200;
 letter-spacing:2px;
 display:inline-block;
+transition: .3s ease-out all;
+@extend .gradientBorder;
 }
 
 .articles a:hover {
@@ -2248,7 +2255,7 @@ margin-bottom:30px;
 p {
 font-size:16px;
 font-weight:200;
-color:#96d5ea;
+color:#00A5B5;
 font-family: 'Oswald', sans-serif;
 letter-spacing:2px;
 }
