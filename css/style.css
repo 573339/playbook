@@ -3734,6 +3734,8 @@ h5 > i {
 .menu-divider {
   border-bottom: 1px solid #e1e1e1;
   display: inline-block; }
+  .menu-divider:last-child {
+    border-bottom: 0; }
 
 .contact-wrap ul li {
   text-decoration: none;

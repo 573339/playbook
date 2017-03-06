@@ -2016,6 +2016,9 @@ display:block;
 .menu-divider {
 border-bottom: 1px solid #e1e1e1;
 display: inline-block;
+	&:last-child{
+		border-bottom:0;
+	}
 }
 
 .contact-wrap ul li {
