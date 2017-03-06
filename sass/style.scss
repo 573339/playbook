@@ -1722,6 +1722,15 @@ background-image: url("../images/sections/chap4-01.jpg");
 background-image: url("../images/sections/chap4-04.jpg");
 }
 
+.transform {
+@extend .sections;
+background-image: url("../images/sections/chap2-01.jpg");
+}
+
+.integration {
+@extend .sections;
+background-image: url("../images/sections/chap2-02.jpg");
+}
 
 
 /*  CHAPTER NAVIGATION STYLES
@@ -1820,6 +1829,10 @@ font-weight:lighter;
 
 /*  TERRELL'S BANNERS 
 -----------------------------------------------------------------------------------*/
+
+.intro-section {
+	margin:90px 0;
+}
 
 .bookcover {
 
@@ -2355,7 +2368,7 @@ margin-bottom:50px;
 
 .global span {
 	text-transform:uppercase;
-	
+
 }
 
 
