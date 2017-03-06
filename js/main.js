@@ -28,6 +28,12 @@ if (scrollWidth === undefined) {
 
 $(document).ready(function(){
 
+  //init AOS
+  AOS.init({
+    duration: 500,
+    easing: 'ease-out-sine',
+  });
+
   //image zoom feature
   $('.imageZoom').click(function(){
     $('#imageModal .modal-body').empty().append($(this).clone());

@@ -61,6 +61,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/aos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/aos-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/bootstrap-select.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1190,6 +1200,15 @@
 		"oA": 0,
 		"oAP": "\/inwidget\/template.php",
 		"oF": 0
+		},
+	"\/js\/aos.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/aos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/assets\/animate.css": {
 		"aP": 1,
