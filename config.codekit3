@@ -9,49 +9,33 @@
 	],
 "creatorBuild": "25568",
 "files": {
-	"\/adata-2x.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/adata-2x-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/adata.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/adata-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/chapter1.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter1.html",
 		"oF": 0
 		},
 	"\/chapter2.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter2.html",
 		"oF": 0
 		},
 	"\/chapter3.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter3.html",
 		"oF": 0
 		},
 	"\/chapter4.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter4.html",
 		"oF": 0
 		},
 	"\/chapter5.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/chapter5.html",
 		"oF": 0
 		},
@@ -62,7 +46,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -224,6 +208,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/promo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -509,153 +503,9 @@
 		},
 	"\/how.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/how.html",
 		"oF": 0
-		},
-	"\/images\/about\/about-1.jpg": {
-		"ft": 16384,
-		"iS": 61290,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-11.jpg": {
-		"ft": 16384,
-		"iS": 51096,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-11.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-11@2x.jpg": {
-		"ft": 16384,
-		"iS": 139127,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-11@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 196406,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-1@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-2.jpg": {
-		"ft": 16384,
-		"iS": 25809,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 86026,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-2@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-3.jpg": {
-		"ft": 16384,
-		"iS": 66013,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 194634,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-3@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-6.jpg": {
-		"ft": 16384,
-		"iS": 30333,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 132020,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-6@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-8.jpg": {
-		"ft": 16384,
-		"iS": 39340,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-8@2x.jpg": {
-		"ft": 16384,
-		"iS": 97381,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-8@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-9.jpg": {
-		"ft": 16384,
-		"iS": 65294,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-9.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about\/about-9@2x.jpg": {
-		"ft": 16384,
-		"iS": 192738,
-		"oA": 0,
-		"oAP": "\/images\/about\/about-9@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about_img.jpg": {
-		"ft": 16384,
-		"iS": 87923,
-		"oA": 0,
-		"oAP": "\/images\/about_img.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/about_img1.jpg": {
-		"ft": 16384,
-		"iS": 140674,
-		"oA": 0,
-		"oAP": "\/images\/about_img1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/agile-icon.png": {
-		"ft": 32768,
-		"iS": 8248,
-		"oA": 0,
-		"oAP": "\/images\/agile-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/analytics-icon.png": {
-		"ft": 32768,
-		"iS": 6021,
-		"oA": 0,
-		"oAP": "\/images\/analytics-icon.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/images\/background\/chapter-1.jpg": {
 		"ft": 16384,
@@ -710,14 +560,6 @@
 		"iS": 8923,
 		"oA": 0,
 		"oAP": "\/images\/bah-logo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/blockquote-bg.png": {
-		"ft": 32768,
-		"iS": 2089,
-		"oA": 0,
-		"oAP": "\/images\/blockquote-bg.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -809,62 +651,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/checkbox-bg-red.png": {
-		"ft": 32768,
-		"iS": 1598,
-		"oA": 0,
-		"oAP": "\/images\/checkbox-bg-red.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/checkbox-bg-white.png": {
-		"ft": 32768,
-		"iS": 1408,
-		"oA": 0,
-		"oAP": "\/images\/checkbox-bg-white.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/checkbox-bg.png": {
-		"ft": 32768,
-		"iS": 1641,
-		"oA": 0,
-		"oAP": "\/images\/checkbox-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/clients\/google.png": {
-		"ft": 32768,
-		"iS": 2656,
-		"oA": 0,
-		"oAP": "\/images\/clients\/google.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/clients\/haier.png": {
-		"ft": 32768,
-		"iS": 1765,
-		"oA": 0,
-		"oAP": "\/images\/clients\/haier.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/clients\/toshiba.png": {
-		"ft": 32768,
-		"iS": 1969,
-		"oA": 0,
-		"oAP": "\/images\/clients\/toshiba.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/clients\/yahoo.png": {
-		"ft": 32768,
-		"iS": 2339,
-		"oA": 0,
-		"oAP": "\/images\/clients\/yahoo.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/close-fancybox.png": {
 		"ft": 32768,
 		"iS": 1283,
@@ -881,46 +667,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/cloud-icon.png": {
-		"ft": 32768,
-		"iS": 7750,
-		"oA": 0,
-		"oAP": "\/images\/cloud-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/common-icon.png": {
-		"ft": 32768,
-		"iS": 13616,
-		"oA": 0,
-		"oAP": "\/images\/common-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/cont_bg.jpg": {
-		"ft": 16384,
-		"iS": 84831,
-		"oA": 0,
-		"oAP": "\/images\/cont_bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/cont_img.jpg": {
-		"ft": 16384,
-		"iS": 40053,
-		"oA": 0,
-		"oAP": "\/images\/cont_img.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/demo-7.jpg": {
-		"ft": 16384,
-		"iS": 122267,
-		"oA": 0,
-		"oAP": "\/images\/demo-7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/enablers.jpg": {
 		"ft": 16384,
 		"iS": 58215,
@@ -929,73 +675,27 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/experience-icon.png": {
-		"ft": 32768,
-		"iS": 7629,
-		"oA": 0,
-		"oAP": "\/images\/experience-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/fan_bg.jpg": {
-		"ft": 16384,
-		"iS": 52467,
-		"oA": 0,
-		"oAP": "\/images\/fan_bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/favicon.ico",
-		"oF": 0
-		},
-	"\/images\/how_about_video-2.jpg": {
-		"ft": 16384,
-		"iS": 172848,
-		"oA": 0,
-		"oAP": "\/images\/how_about_video-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/how_about_video-3.jpg": {
-		"ft": 16384,
-		"iS": 187690,
-		"oA": 0,
-		"oAP": "\/images\/how_about_video-3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/how_about_video-4.jpg": {
-		"ft": 16384,
-		"iS": 80692,
-		"oA": 0,
-		"oAP": "\/images\/how_about_video-4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/how_about_video-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 111204,
-		"oA": 0,
-		"oAP": "\/images\/how_about_video-4@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/how_about_video.jpg": {
-		"ft": 16384,
-		"iS": 98287,
-		"oA": 0,
-		"oAP": "\/images\/how_about_video.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/icons\/agile-5.png": {
 		"ft": 32768,
 		"iS": 11710,
 		"oA": 0,
 		"oAP": "\/images\/icons\/agile-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/agile-icon.png": {
+		"ft": 32768,
+		"iS": 8248,
+		"oA": 0,
+		"oAP": "\/images\/icons\/agile-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/analytics-icon.png": {
+		"ft": 32768,
+		"iS": 6021,
+		"oA": 0,
+		"oAP": "\/images\/icons\/analytics-icon.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1020,6 +720,22 @@
 		"iS": 10774,
 		"oA": 0,
 		"oAP": "\/images\/icons\/cloud-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/cloud-icon.png": {
+		"ft": 32768,
+		"iS": 7750,
+		"oA": 0,
+		"oAP": "\/images\/icons\/cloud-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/common-icon.png": {
+		"ft": 32768,
+		"iS": 13616,
+		"oA": 0,
+		"oAP": "\/images\/icons\/common-icon.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1087,6 +803,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/experience-icon.png": {
+		"ft": 32768,
+		"iS": 7629,
+		"oA": 0,
+		"oAP": "\/images\/icons\/experience-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/formulate-6.png": {
 		"ft": 32768,
 		"iS": 7319,
@@ -1103,6 +827,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/lass.png": {
+		"ft": 32768,
+		"iS": 11441,
+		"oA": 0,
+		"oAP": "\/images\/icons\/lass.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/mobile-icon.png": {
+		"ft": 32768,
+		"iS": 9135,
+		"oA": 0,
+		"oAP": "\/images\/icons\/mobile-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/monitor-6.png": {
 		"ft": 32768,
 		"iS": 10962,
@@ -1116,6 +856,22 @@
 		"iS": 7823,
 		"oA": 0,
 		"oAP": "\/images\/icons\/network-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/open-icon.png": {
+		"ft": 32768,
+		"iS": 10619,
+		"oA": 0,
+		"oAP": "\/images\/icons\/open-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/pass.png": {
+		"ft": 32768,
+		"iS": 9221,
+		"oA": 0,
+		"oAP": "\/images\/icons\/pass.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1159,11 +915,35 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/port-icon.png": {
+		"ft": 32768,
+		"iS": 12762,
+		"oA": 0,
+		"oAP": "\/images\/icons\/port-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/sass.png": {
+		"ft": 32768,
+		"iS": 4663,
+		"oA": 0,
+		"oAP": "\/images\/icons\/sass.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/scientists-4.png": {
 		"ft": 32768,
 		"iS": 7477,
 		"oA": 0,
 		"oAP": "\/images\/icons\/scientists-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/social-icon.png": {
+		"ft": 32768,
+		"iS": 7208,
+		"oA": 0,
+		"oAP": "\/images\/icons\/social-icon.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1207,189 +987,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/lass.png": {
-		"ft": 32768,
-		"iS": 11441,
-		"oA": 0,
-		"oAP": "\/images\/lass.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/li-img.png": {
-		"ft": 32768,
-		"iS": 1097,
-		"oA": 0,
-		"oAP": "\/images\/li-img.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/like-theme.png": {
-		"ft": 32768,
-		"iS": 345194,
-		"oA": 0,
-		"oAP": "\/images\/like-theme.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/logo-accent.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/logo-accent.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/marker.png": {
-		"ft": 32768,
-		"iS": 5402,
-		"oA": 0,
-		"oAP": "\/images\/marker.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/melissa.jpg": {
 		"ft": 16384,
 		"iS": 4401,
 		"oA": 0,
 		"oAP": "\/images\/melissa.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/mobile-icon.png": {
-		"ft": 32768,
-		"iS": 9135,
-		"oA": 0,
-		"oAP": "\/images\/mobile-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/open-icon.png": {
-		"ft": 32768,
-		"iS": 10619,
-		"oA": 0,
-		"oAP": "\/images\/open-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/1_hello.jpg": {
-		"ft": 16384,
-		"iS": 43405,
-		"oA": 0,
-		"oAP": "\/images\/orange\/1_hello.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/6@2x.jpg": {
-		"ft": 16384,
-		"iS": 115653,
-		"oA": 0,
-		"oAP": "\/images\/orange\/6@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/hello.jpg": {
-		"ft": 16384,
-		"iS": 49544,
-		"oA": 0,
-		"oAP": "\/images\/orange\/hello.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/hello@2x.jpg": {
-		"ft": 16384,
-		"iS": 113674,
-		"oA": 0,
-		"oAP": "\/images\/orange\/hello@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/how-about-video.jpg": {
-		"ft": 16384,
-		"iS": 157144,
-		"oA": 0,
-		"oAP": "\/images\/orange\/how-about-video.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/last-in-blog-2.jpg": {
-		"ft": 16384,
-		"iS": 66070,
-		"oA": 0,
-		"oAP": "\/images\/orange\/last-in-blog-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/last-in-blog-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 103646,
-		"oA": 0,
-		"oAP": "\/images\/orange\/last-in-blog-2@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/last-in-blog.jpg": {
-		"ft": 16384,
-		"iS": 30070,
-		"oA": 0,
-		"oAP": "\/images\/orange\/last-in-blog.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/last-in-blog@2x.jpg": {
-		"ft": 16384,
-		"iS": 98370,
-		"oA": 0,
-		"oAP": "\/images\/orange\/last-in-blog@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/primary.jpg": {
-		"ft": 16384,
-		"iS": 164511,
-		"oA": 0,
-		"oAP": "\/images\/orange\/primary.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/primaryold.jpg": {
-		"ft": 16384,
-		"iS": 202769,
-		"oA": 0,
-		"oAP": "\/images\/orange\/primaryold.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/slide1.jpg": {
-		"ft": 16384,
-		"iS": 217574,
-		"oA": 0,
-		"oAP": "\/images\/orange\/slide1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/slide2.jpg": {
-		"ft": 16384,
-		"iS": 106105,
-		"oA": 0,
-		"oAP": "\/images\/orange\/slide2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/orange\/slide3.jpg": {
-		"ft": 16384,
-		"iS": 106249,
-		"oA": 0,
-		"oAP": "\/images\/orange\/slide3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/pass.png": {
-		"ft": 32768,
-		"iS": 9221,
-		"oA": 0,
-		"oAP": "\/images\/pass.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1401,1084 +1003,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/port-icon.png": {
-		"ft": 32768,
-		"iS": 12762,
-		"oA": 0,
-		"oAP": "\/images\/port-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/1.jpg": {
-		"ft": 16384,
-		"iS": 33852,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/10.jpg": {
-		"ft": 16384,
-		"iS": 35452,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/10.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/10@2x.jpg": {
-		"ft": 16384,
-		"iS": 93628,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/10@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/11.jpg": {
-		"ft": 16384,
-		"iS": 52652,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/11.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/11@2x.jpg": {
-		"ft": 16384,
-		"iS": 96998,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/11@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/12.jpg": {
-		"ft": 16384,
-		"iS": 19340,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/12.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/12@2x.jpg": {
-		"ft": 16384,
-		"iS": 65557,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/12@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/13.jpg": {
-		"ft": 16384,
-		"iS": 61010,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/13.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/13@2x.jpg": {
-		"ft": 16384,
-		"iS": 110216,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/13@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/14.jpg": {
-		"ft": 16384,
-		"iS": 67567,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/14.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/14@2x.jpg": {
-		"ft": 16384,
-		"iS": 112228,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/14@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/15.jpg": {
-		"ft": 16384,
-		"iS": 68585,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/15.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/15@2x.jpg": {
-		"ft": 16384,
-		"iS": 173696,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/15@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/16.jpg": {
-		"ft": 16384,
-		"iS": 56896,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/16.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/16@2x.jpg": {
-		"ft": 16384,
-		"iS": 140179,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/16@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/17.jpg": {
-		"ft": 16384,
-		"iS": 89052,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/17.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/17@2x.jpg": {
-		"ft": 16384,
-		"iS": 137705,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/17@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/18.jpg": {
-		"ft": 16384,
-		"iS": 38134,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/18.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/18@2x.jpg": {
-		"ft": 16384,
-		"iS": 91021,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/18@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/19.jpg": {
-		"ft": 16384,
-		"iS": 35396,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/19.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/19@2x.jpg": {
-		"ft": 16384,
-		"iS": 88853,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/19@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/1@2x.jpg": {
-		"ft": 16384,
-		"iS": 85907,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/1@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/2.jpg": {
-		"ft": 16384,
-		"iS": 61136,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/20.jpg": {
-		"ft": 16384,
-		"iS": 74583,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/20.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/20@2x.jpg": {
-		"ft": 16384,
-		"iS": 115663,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/20@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/21.jpg": {
-		"ft": 16384,
-		"iS": 56993,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/21.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/21@2x.jpg": {
-		"ft": 16384,
-		"iS": 104599,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/21@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/22.jpg": {
-		"ft": 16384,
-		"iS": 39461,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/22.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/22@2x.jpg": {
-		"ft": 16384,
-		"iS": 105020,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/22@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/23.jpg": {
-		"ft": 16384,
-		"iS": 32158,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/23.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/23@2x.jpg": {
-		"ft": 16384,
-		"iS": 79307,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/23@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/24.jpg": {
-		"ft": 16384,
-		"iS": 75677,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/24.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/24@2x.jpg": {
-		"ft": 16384,
-		"iS": 126817,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/24@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/2@2x.jpg": {
-		"ft": 16384,
-		"iS": 186272,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/2@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/3.jpg": {
-		"ft": 16384,
-		"iS": 65293,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/3@2x.jpg": {
-		"ft": 16384,
-		"iS": 158701,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/3@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/4.jpg": {
-		"ft": 16384,
-		"iS": 19930,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/4@2x.jpg": {
-		"ft": 16384,
-		"iS": 54932,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/4@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/5.jpg": {
-		"ft": 16384,
-		"iS": 63565,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/5@2x.jpg": {
-		"ft": 16384,
-		"iS": 122648,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/5@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/6.jpg": {
-		"ft": 16384,
-		"iS": 55829,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/6@2x.jpg": {
-		"ft": 16384,
-		"iS": 162317,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/6@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/7.jpg": {
-		"ft": 16384,
-		"iS": 53278,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/7@2x.jpg": {
-		"ft": 16384,
-		"iS": 182193,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/7@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/8.jpg": {
-		"ft": 16384,
-		"iS": 52478,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/8@2x.jpg": {
-		"ft": 16384,
-		"iS": 98988,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/8@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/9.jpg": {
-		"ft": 16384,
-		"iS": 71250,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/9.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/img\/9@2x.jpg": {
-		"ft": 16384,
-		"iS": 125344,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img\/9@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/1.jpg": {
-		"ft": 16384,
-		"iS": 18421,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/10.jpg": {
-		"ft": 16384,
-		"iS": 16730,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/10.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/10@2x.jpg": {
-		"ft": 16384,
-		"iS": 46018,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/10@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/11.jpg": {
-		"ft": 16384,
-		"iS": 25053,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/11.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/11@2x.jpg": {
-		"ft": 16384,
-		"iS": 74713,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/11@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/12.jpg": {
-		"ft": 16384,
-		"iS": 13454,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/12.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/12@2x.jpg": {
-		"ft": 16384,
-		"iS": 41786,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/12@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/13.jpg": {
-		"ft": 16384,
-		"iS": 29171,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/13.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/13@2x.jpg": {
-		"ft": 16384,
-		"iS": 55293,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/13@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/14.jpg": {
-		"ft": 16384,
-		"iS": 29273,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/14.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/14@2x.jpg": {
-		"ft": 16384,
-		"iS": 55631,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/14@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/15.jpg": {
-		"ft": 16384,
-		"iS": 33769,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/15.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/15@2x.jpg": {
-		"ft": 16384,
-		"iS": 73094,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/15@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/16.jpg": {
-		"ft": 16384,
-		"iS": 25005,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/16.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/16@2x.jpg": {
-		"ft": 16384,
-		"iS": 61798,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/16@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/17.jpg": {
-		"ft": 16384,
-		"iS": 25682,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/17.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/17@2x.jpg": {
-		"ft": 16384,
-		"iS": 77155,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/17@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/18.jpg": {
-		"ft": 16384,
-		"iS": 22095,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/18.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/18@2x.jpg": {
-		"ft": 16384,
-		"iS": 53252,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/18@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/19.jpg": {
-		"ft": 16384,
-		"iS": 11019,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/19.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/19@2x.jpg": {
-		"ft": 16384,
-		"iS": 26665,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/19@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/1@2x.jpg": {
-		"ft": 16384,
-		"iS": 45621,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/1@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/2.jpg": {
-		"ft": 16384,
-		"iS": 37319,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/20.jpg": {
-		"ft": 16384,
-		"iS": 26237,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/20.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/20@2x.jpg": {
-		"ft": 16384,
-		"iS": 74168,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/20@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/21.jpg": {
-		"ft": 16384,
-		"iS": 25989,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/21.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/21@2x.jpg": {
-		"ft": 16384,
-		"iS": 85616,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/21@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/22.jpg": {
-		"ft": 16384,
-		"iS": 26171,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/22.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/22@2x.jpg": {
-		"ft": 16384,
-		"iS": 75003,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/22@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/23.jpg": {
-		"ft": 16384,
-		"iS": 18045,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/23.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/23@2x.jpg": {
-		"ft": 16384,
-		"iS": 47404,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/23@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/24.jpg": {
-		"ft": 16384,
-		"iS": 27919,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/24.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/24@2x.jpg": {
-		"ft": 16384,
-		"iS": 49820,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/24@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/2@2x.jpg": {
-		"ft": 16384,
-		"iS": 80435,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/2@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/3.jpg": {
-		"ft": 16384,
-		"iS": 32827,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/3@2x.jpg": {
-		"ft": 16384,
-		"iS": 62300,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/3@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/4.jpg": {
-		"ft": 16384,
-		"iS": 12810,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/4@2x.jpg": {
-		"ft": 16384,
-		"iS": 36491,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/4@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/5.jpg": {
-		"ft": 16384,
-		"iS": 39656,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/5@2x.jpg": {
-		"ft": 16384,
-		"iS": 64284,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/5@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/6.jpg": {
-		"ft": 16384,
-		"iS": 36023,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/6@2x.jpg": {
-		"ft": 16384,
-		"iS": 65867,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/6@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/7.jpg": {
-		"ft": 16384,
-		"iS": 40188,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/7@2x.jpg": {
-		"ft": 16384,
-		"iS": 87337,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/7@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/8.jpg": {
-		"ft": 16384,
-		"iS": 23632,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/8@2x.jpg": {
-		"ft": 16384,
-		"iS": 82124,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/8@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/9.jpg": {
-		"ft": 16384,
-		"iS": 26472,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/9.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/portfolio\/prev\/9@2x.jpg": {
-		"ft": 16384,
-		"iS": 80894,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/prev\/9@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/post\/post1.jpg": {
-		"ft": 16384,
-		"iS": 47252,
-		"oA": 0,
-		"oAP": "\/images\/post\/post1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/post\/post2.jpg": {
-		"ft": 16384,
-		"iS": 128855,
-		"oA": 0,
-		"oAP": "\/images\/post\/post2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/post\/post3.jpg": {
-		"ft": 16384,
-		"iS": 99761,
-		"oA": 0,
-		"oAP": "\/images\/post\/post3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/price_img.jpg": {
-		"ft": 16384,
-		"iS": 106312,
-		"oA": 0,
-		"oAP": "\/images\/price_img.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/primary.jpg": {
-		"ft": 16384,
-		"iS": 45841,
-		"oA": 0,
-		"oAP": "\/images\/primary.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/1.jpg": {
-		"ft": 16384,
-		"iS": 54518,
-		"oA": 0,
-		"oAP": "\/images\/promo\/1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/10.jpg": {
-		"ft": 16384,
-		"iS": 70057,
-		"oA": 0,
-		"oAP": "\/images\/promo\/10.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/10@2x.jpg": {
-		"ft": 16384,
-		"iS": 114742,
-		"oA": 0,
-		"oAP": "\/images\/promo\/10@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/11.jpg": {
-		"ft": 16384,
-		"iS": 278759,
-		"oA": 0,
-		"oAP": "\/images\/promo\/11.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/11@2x.jpg": {
-		"ft": 16384,
-		"iS": 146383,
-		"oA": 0,
-		"oAP": "\/images\/promo\/11@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/12.jpg": {
-		"ft": 16384,
-		"iS": 73792,
-		"oA": 0,
-		"oAP": "\/images\/promo\/12.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/12@2x.jpg": {
-		"ft": 16384,
-		"iS": 99190,
-		"oA": 0,
-		"oAP": "\/images\/promo\/12@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/1@2x.jpg": {
-		"ft": 16384,
-		"iS": 108732,
-		"oA": 0,
-		"oAP": "\/images\/promo\/1@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/2.jpg": {
-		"ft": 16384,
-		"iS": 79670,
-		"oA": 0,
-		"oAP": "\/images\/promo\/2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/2@2x.jpg": {
-		"ft": 16384,
-		"iS": 141347,
-		"oA": 0,
-		"oAP": "\/images\/promo\/2@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/3.jpg": {
-		"ft": 16384,
-		"iS": 66953,
-		"oA": 0,
-		"oAP": "\/images\/promo\/3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/3@2x.jpg": {
-		"ft": 16384,
-		"iS": 73732,
-		"oA": 0,
-		"oAP": "\/images\/promo\/3@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/4.jpg": {
-		"ft": 16384,
-		"iS": 65400,
-		"oA": 0,
-		"oAP": "\/images\/promo\/4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/4@2x.jpg": {
-		"ft": 16384,
-		"iS": 77284,
-		"oA": 0,
-		"oAP": "\/images\/promo\/4@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/5.jpg": {
-		"ft": 16384,
-		"iS": 51947,
-		"oA": 0,
-		"oAP": "\/images\/promo\/5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/5@2x.jpg": {
-		"ft": 16384,
-		"iS": 82939,
-		"oA": 0,
-		"oAP": "\/images\/promo\/5@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/6.jpg": {
-		"ft": 16384,
-		"iS": 197214,
-		"oA": 0,
-		"oAP": "\/images\/promo\/6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/6@2x.jpg": {
-		"ft": 16384,
-		"iS": 157737,
-		"oA": 0,
-		"oAP": "\/images\/promo\/6@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/7.jpg": {
-		"ft": 16384,
-		"iS": 45543,
-		"oA": 0,
-		"oAP": "\/images\/promo\/7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/7@2x.jpg": {
-		"ft": 16384,
-		"iS": 103985,
-		"oA": 0,
-		"oAP": "\/images\/promo\/7@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/8.jpg": {
-		"ft": 16384,
-		"iS": 67768,
-		"oA": 0,
-		"oAP": "\/images\/promo\/8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/8@2x.jpg": {
-		"ft": 16384,
-		"iS": 92744,
-		"oA": 0,
-		"oAP": "\/images\/promo\/8@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/9.jpg": {
-		"ft": 16384,
-		"iS": 45212,
-		"oA": 0,
-		"oAP": "\/images\/promo\/9.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/9@2x.jpg": {
-		"ft": 16384,
-		"iS": 103031,
-		"oA": 0,
-		"oAP": "\/images\/promo\/9@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/ib-logo.png": {
-		"ft": 32768,
-		"iS": 2114,
-		"oA": 0,
-		"oAP": "\/images\/promo\/ib-logo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/promo\/icons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/promo\/icons.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/promo\/logo_ib.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/promo\/logo_ib.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/promo\/slide1.jpg": {
-		"ft": 16384,
-		"iS": 115653,
-		"oA": 0,
-		"oAP": "\/images\/promo\/slide1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/quotation-marks.png": {
-		"ft": 32768,
-		"iS": 3263,
-		"oA": 0,
-		"oAP": "\/images\/quotation-marks.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/quotation-marks.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/quotation-marks.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/radio-bg-white.png": {
-		"ft": 32768,
-		"iS": 1901,
-		"oA": 0,
-		"oAP": "\/images\/radio-bg-white.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/radio-bg.png": {
-		"ft": 32768,
-		"iS": 1994,
-		"oA": 0,
-		"oAP": "\/images\/radio-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/robert-thub.jpg": {
 		"ft": 16384,
 		"iS": 7773,
@@ -2487,11 +1011,59 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/sass.png": {
-		"ft": 32768,
-		"iS": 4663,
+	"\/images\/sections\/chap2-01.jpg": {
+		"ft": 16384,
+		"iS": 139033,
 		"oA": 0,
-		"oAP": "\/images\/sass.png",
+		"oAP": "\/images\/sections\/chap2-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap2-02.jpg": {
+		"ft": 16384,
+		"iS": 181748,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap2-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap4-01.jpg": {
+		"ft": 16384,
+		"iS": 117467,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap4-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap4-02.jpg": {
+		"ft": 16384,
+		"iS": 169477,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap4-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap4-03.jpg": {
+		"ft": 16384,
+		"iS": 136485,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap4-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap4-04.jpg": {
+		"ft": 16384,
+		"iS": 115673,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap4-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sections\/chap4-05.jpg": {
+		"ft": 16384,
+		"iS": 167301,
+		"oA": 0,
+		"oAP": "\/images\/sections\/chap4-05.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2511,90 +1083,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/select-arrow-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/select-arrow-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/select-arrow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/select-arrow.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/slide\/slide-1.jpg": {
-		"ft": 16384,
-		"iS": 191720,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-2.jpg": {
-		"ft": 16384,
-		"iS": 195759,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-3.jpg": {
-		"ft": 16384,
-		"iS": 263780,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-4.jpg": {
-		"ft": 16384,
-		"iS": 246973,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-5.jpg": {
-		"ft": 16384,
-		"iS": 248356,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-6.jpg": {
-		"ft": 16384,
-		"iS": 199423,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/slide\/slide-7.jpg": {
-		"ft": 16384,
-		"iS": 215579,
-		"oA": 0,
-		"oAP": "\/images\/slide\/slide-7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/social-icon.png": {
-		"ft": 32768,
-		"iS": 7208,
-		"oA": 0,
-		"oAP": "\/images\/social-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/target.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2604,102 +1092,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/team\/t1.png": {
-		"ft": 32768,
-		"iS": 481905,
-		"oA": 0,
-		"oAP": "\/images\/team\/t1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/t2.png": {
-		"ft": 32768,
-		"iS": 589592,
-		"oA": 0,
-		"oAP": "\/images\/team\/t2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/t3.png": {
-		"ft": 32768,
-		"iS": 630847,
-		"oA": 0,
-		"oAP": "\/images\/team\/t3.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/t4.png": {
-		"ft": 32768,
-		"iS": 600868,
-		"oA": 0,
-		"oAP": "\/images\/team\/t4.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/t5.png": {
-		"ft": 32768,
-		"iS": 623091,
-		"oA": 0,
-		"oAP": "\/images\/team\/t5.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/t6.png": {
-		"ft": 32768,
-		"iS": 451584,
-		"oA": 0,
-		"oAP": "\/images\/team\/t6.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm1.jpg": {
-		"ft": 16384,
-		"iS": 4248,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm2.jpg": {
-		"ft": 16384,
-		"iS": 4576,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm3.jpg": {
-		"ft": 16384,
-		"iS": 5302,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm4.jpg": {
-		"ft": 16384,
-		"iS": 4651,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm5.jpg": {
-		"ft": 16384,
-		"iS": 4350,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/team\/tm6.jpg": {
-		"ft": 16384,
-		"iS": 4821,
-		"oA": 0,
-		"oAP": "\/images\/team\/tm6.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/images\/wade.jpg": {
 		"ft": 16384,
@@ -2725,7 +1117,7 @@
 		},
 	"\/introduction.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/introduction.html",
 		"oF": 0
 		},
@@ -3151,7 +1543,7 @@
 	"\/js\/min\/main-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -4615,7 +3007,7 @@
 		},
 	"\/summary.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/summary.html",
 		"oF": 0
 		}
