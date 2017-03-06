@@ -3809,31 +3809,28 @@ blockquote p {
   padding-top: 65px;
   margin-top: -65px; }
 
-.intro {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-  .intro h4 {
-    text-transform: uppercase;
-    color: #00A6B6;
-    font-size: 18px;
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif; }
-  .intro a {
-    border: 1px solid #00a6b6;
-    text-transform: uppercase;
-    color: #00a6b6;
-    padding: 10px 50px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    display: inline-block; }
-  .intro a:hover {
-    border: 1px solid #00a6b6;
-    background-color: #00a6b6;
-    color: #fff; }
-  .intro p {
-    color: #53565A;
-    margin-bottom: 30px; }
+.intro h4 {
+  text-transform: uppercase;
+  color: #00A6B6;
+  font-size: 18px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif; }
+.intro a {
+  border: 1px solid #00a6b6;
+  text-transform: uppercase;
+  color: #00a6b6;
+  padding: 10px 50px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  display: inline-block; }
+.intro a:hover {
+  border: 1px solid #00a6b6;
+  background-color: #00a6b6;
+  color: #fff; }
+.intro p {
+  color: #53565A;
+  margin-bottom: 30px; }
 
 /*  TERRELL'S SIDEBAR 
 -----------------------------------------------------------------------------------*/
