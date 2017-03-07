@@ -1765,11 +1765,16 @@ background-image: url("../images/sections/chap2-02.jpg");
 /*  CHAPTER NAVIGATION STYLES
 -----------------------------------------------------------------------------------*/
 
+.modal-header {
+	border:none !important;
+}
+
 .next {
 position:relative;
 font-size:18px;
 color:#fff;
 height:300px;
+margin-top: 50px;
 }
 
 .chap-nav {
@@ -2014,6 +2019,7 @@ display:block;
 }
 
 .menu-divider {
+padding:5px;
 border-bottom: 1px solid #e1e1e1;
 display: inline-block;
 	&:last-child{
