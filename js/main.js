@@ -32,6 +32,7 @@ $(document).ready(function(){
   AOS.init({
     duration: 500,
     easing: 'ease-out-sine',
+    disable: 'mobile'
   });
 
   //image zoom feature
