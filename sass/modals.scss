@@ -20,8 +20,77 @@
 
 }
 
+.graphic{
+	.row{
+		position:relative;
+		&::before{
+			font-family: fontAwesome;
+			content: "\f002";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 999;
+			font-size: 48px;
+			opacity: 0.6;
+			color: white;
+			text-shadow: 0px 0px 14px black;
+			@extend .transition;
+		}
+		&::after{
+			
+			display: block;
+			position: absolute;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+
+			text-align: center;
+			background: radial-gradient(ellipse at center, rgba(255,255,255,.9) 0%,rgba(255,255,255,0) 100%);
+			opacity: .6;
+			cursor: pointer;
+
+			@extend .transition;
+		}
+
+		&:hover{
+			&::before{
+				opacity: 1;
+			}
+			&::after{
+				opacity:1;
+				background: radial-gradient(ellipse at center, rgba(255,255,255,.9) 0%,rgba(255,255,255,0) 100%);
+
+			}
+		}
+
+		@media (max-width:1024px){
+			&::after{
+				display:none;
+			}
+			&::before{
+				top: auto;
+				left: auto;
+				right:0;
+				bottom:0;
+				width: 52px;
+				height: 52px;
+				background: rgba(0,0,0,.4);
+				color: white;
+				transform: none;
+				font-size: 33px;
+				line-height: 52px;
+				text-align: center;
+
+			}
+		}
+	}
+}
+
 .imageZoom{
 	&:hover{
 		cursor: pointer;
 	}
+
 }

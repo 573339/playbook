@@ -36,8 +36,9 @@ $(document).ready(function(){
   });
 
   //image zoom feature
-  $('.imageZoom').click(function(){
-    $('#imageModal .modal-body').empty().append($(this).clone());
+  $('.graphic').click(function(){
+    var image=$(this).find('.imageZoom');
+    $('#imageModal .modal-body').empty().append(image.clone());
     $('#imageModal').modal();
   });
 

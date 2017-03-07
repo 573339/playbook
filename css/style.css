@@ -2176,6 +2176,57 @@ button:active:hover {
   width: auto !important;
   margin: 10px !important; }
 
+.graphic .row {
+  position: relative; }
+  .graphic .row::before {
+    font-family: fontAwesome;
+    content: "\f002";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 999;
+    font-size: 48px;
+    opacity: 0.6;
+    color: white;
+    text-shadow: 0px 0px 14px black; }
+  .graphic .row::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background: -webkit-radial-gradient(center ellipse, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: .6;
+    cursor: pointer; }
+  .graphic .row:hover::before {
+    opacity: 1; }
+  .graphic .row:hover::after {
+    opacity: 1;
+    background: -webkit-radial-gradient(center ellipse, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%); }
+  @media (max-width: 1024px) {
+    .graphic .row::after {
+      display: none; }
+    .graphic .row::before {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      width: 52px;
+      height: 52px;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      -webkit-transform: none;
+              transform: none;
+      font-size: 33px;
+      line-height: 52px;
+      text-align: center; } }
+
 .imageZoom:hover {
   cursor: pointer; }
 
@@ -2275,7 +2326,7 @@ main {
   border-style: solid;
   border-width: 1px; }
 
-.transition, .top-nav-line, .chap-nav a, .articles a {
+.transition, .graphic .row::before, .graphic .row::after, .top-nav-line, .chap-nav a, .articles a {
   -webkit-transition: .3s ease-out all;
   transition: .3s ease-out all; }
 
