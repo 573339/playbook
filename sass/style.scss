@@ -1767,6 +1767,11 @@ background-image: url("../images/sections/chap2-02.jpg");
 
 .modal-header {
 	border:none !important;
+
+	.close{
+		position: relative;
+		z-index: 999;
+	}
 }
 
 .next {
