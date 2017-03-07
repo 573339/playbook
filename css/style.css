@@ -2176,6 +2176,9 @@ button:active:hover {
   width: auto !important;
   margin: 10px !important; }
 
+.imageZoom:hover {
+  cursor: pointer; }
+
 body {
   color: #333333; }
 
