@@ -2269,10 +2269,11 @@ main {
         padding-top: 30px; } }
 
 .gradientBorder, .chap-nav a, .articles a {
-  border: 1px solid transparent;
   -o-border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: -webkit-linear-gradient(left, #72A94E 0%, #00A5B5 100%) 1 stretch;
-     border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch; }
+     border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
+  border-style: solid;
+  border-width: 1px; }
 
 .transition, .chap-nav a, .articles a {
   -webkit-transition: .3s ease-out all;
@@ -3530,6 +3531,9 @@ header.top-menu {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media only screen and (max-device-width: 1024px) {
+    .sections, .assessing, .enterprise, .pad, .code, .chair, .culture, .office, .transform, .integration {
+      background-attachment: scroll; } }
 
 .assessing {
   background-image: url("../images/sections/chap6-01.jpg"); }

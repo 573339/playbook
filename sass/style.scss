@@ -206,8 +206,9 @@ padding-top: 30px;
 }
 
 .gradientBorder{
-	border: 1px solid transparent;
 	border-image: linear-gradient(to right, #72A94E 0%,#00A5B5 100%) 1 stretch;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .transition{
@@ -1714,6 +1715,9 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+	@media only screen and (max-device-width : 1024px){
+		background-attachment: scroll;
+	}
 }
 
 .assessing {
