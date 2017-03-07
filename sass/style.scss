@@ -576,13 +576,15 @@ padding:0 !important;
 ---------------------------------------------------------------*/
 .top-nav-line{
 display: none;
-height: 87px;
+height: 65px;
 left: 0;
 position: fixed;
 right: 0;
 top: 0;
 width: 100%;
 z-index: 98;
+@extend .transition;
+
 #menu-open{
 background: $whitecolor;
 border-bottom: 0 none;
