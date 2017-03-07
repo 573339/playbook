@@ -7,10 +7,10 @@
     versionCode = "10" 
     version     = "1.0" >
 
-    <name>Threat Trainer</name>
+    <name>Playbook</name>
 
     <description>
-        Prototype GTMP App
+        Prototype Playbook Site
     </description>
 
 	
