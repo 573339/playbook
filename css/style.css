@@ -2268,7 +2268,7 @@ main {
         padding-bottom: 30px;
         padding-top: 30px; } }
 
-.gradientBorder, .chap-nav a, .articles a {
+.gradientBorder, .chap-nav a, .intro a, .articles a {
   -o-border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: -webkit-linear-gradient(left, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
@@ -3832,7 +3832,6 @@ blockquote p {
   font-weight: 400;
   font-family: 'Oswald', sans-serif; }
 .intro a {
-  border: 1px solid #00a6b6;
   text-transform: uppercase;
   color: #00a6b6;
   padding: 10px 50px;
