@@ -3716,8 +3716,8 @@ header.top-menu {
   height: 65px; }
 
 .top-nav-line img {
-  position: fixed;
-  top: 4%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   margin-top: -10px;
   margin-left: -92px; }
