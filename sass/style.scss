@@ -2425,6 +2425,20 @@ margin-bottom:50px;
 
 }
 
+.cordian-wrap {
+margin-top:30px;
+	
+}
+
+.panel-body img {
+	margin-bottom:20px;
+}
+
+.cloud > img {
+	margin-right:12px;
+}
+
+
 
 /*  TERRELL'S SECTION--CHAPTER 5
 -----------------------------------------------------------------------------------*/
@@ -5665,12 +5679,12 @@ color: #222;
 color: $whitecolor;
 padding:0;
 a{
-@include rem(font-size, 12px);
+font-size:22px;
 background:#f9f9f9;
 border:1px solid #e1e1e1;
 color: #222;
 display: block;
-font-weight: 600;
+font-weight: 300;
 padding: 18px 19px;
 position: relative;
 width: 100%;
