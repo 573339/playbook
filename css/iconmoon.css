@@ -24,31 +24,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-play1:before {
-  content: "\e9c2";
- font-size: 65px;
-    color: #fff;
-}
-.icon-play3:before {
-  content: "\e9c3";
-  font-size: 65px;
-    color: #fff;
-}
-.icon-play2:before {
-  content: "\e9c4";
-  font-size: 65px;
-    color: #fff;
-}
-
-.icon-play5:before {
-  content: "\e9c5";
-  font-size: 65px;
-    color: #fff;
-}
 .icon-play4:before {
   content: "\e900";
    font-size: 65px;
     color: #fff;
 }
+.icon-play5:before {
+  content: "\e9c5";
+   font-size: 65px;
+    color: #fff;
+}
+.icon-play1:before {
+  content: "\1f58f";
+   font-size: 65px;
+    color: #fff;
+}
+.icon-play3:before {
+  content: "\e9c3";
+   font-size: 65px;
+    color: #fff;
+}
+.icon-play2:before {
+  content: "\e9c4";
+   font-size: 65px;
+    color: #fff;
+}
+
 
 
