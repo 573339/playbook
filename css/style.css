@@ -3577,7 +3577,7 @@ header.top-menu {
 
 .articles {
   padding: 50px;
-  width: 350px;
+  width: 410px;
   text-align: center;
   top: 50%;
   position: absolute;
@@ -3773,9 +3773,10 @@ header.top-menu {
     font-family: 'Oswald', sans-serif; }
   #article-wrap h3 {
     color: #035157;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif; }
+    font-family: 'Oswald', sans-serif;
+    line-height: 48px; }
 
 .navbar-right {
   margin-right: 20px; }
@@ -4018,7 +4019,7 @@ blockquote p {
   color: #fff;
   text-transform: uppercase; }
   .chap-cover span {
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: 300;
     display: block;
@@ -4114,6 +4115,15 @@ ol.list-style {
 
 .global span {
   text-transform: uppercase; }
+
+.cordian-wrap {
+  margin-top: 30px; }
+
+.panel-body img {
+  margin-bottom: 20px; }
+
+.cloud > img {
+  margin-right: 12px; }
 
 /*  TERRELL'S SECTION--CHAPTER 5
 -----------------------------------------------------------------------------------*/
@@ -6718,13 +6728,12 @@ ol.list-style {
     color: #fff;
     padding: 0; }
     .panel-default > .panel-heading a {
-      font-size: 12px;
-      font-size: 0.85714rem;
+      font-size: 22px;
       background: #f9f9f9;
       border: 1px solid #e1e1e1;
       color: #222;
       display: block;
-      font-weight: 600;
+      font-weight: 300;
       padding: 18px 19px;
       position: relative;
       width: 100%;

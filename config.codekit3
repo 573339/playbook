@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/chapter1.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -49,6 +55,12 @@
 		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
+		"oF": 0
+		},
+	"\/config.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config.xml",
 		"oF": 0
 		},
 	"\/css\/animate.min.css": {
@@ -106,7 +118,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/font-awesome-min.css",
 		"oF": 0,
 		"oS": 0
@@ -176,7 +188,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/modals-min.css",
 		"oF": 0,
 		"oS": 0
@@ -221,22 +233,12 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/variables-theme-1.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-1-min.css",
 		"oF": 0,
 		"oS": 0
@@ -246,7 +248,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-10-min.css",
 		"oF": 0,
 		"oS": 0
@@ -256,7 +258,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-11-min.css",
 		"oF": 0,
 		"oS": 0
@@ -266,7 +268,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-2-min.css",
 		"oF": 0,
 		"oS": 0
@@ -276,7 +278,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-4-min.css",
 		"oF": 0,
 		"oS": 0
@@ -286,7 +288,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-color-3-min.css",
 		"oF": 0,
 		"oS": 0
@@ -296,7 +298,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-color-6-min.css",
 		"oF": 0,
 		"oS": 0
@@ -306,7 +308,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-color-7-min.css",
 		"oF": 0,
 		"oS": 0
@@ -316,7 +318,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-color-8-min.css",
 		"oF": 0,
 		"oS": 0
@@ -326,7 +328,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/variables-theme-color-9-min.css",
 		"oF": 0,
 		"oS": 0
@@ -677,11 +679,67 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/cml-icon.png": {
+		"ft": 32768,
+		"iS": 5568,
+		"oA": 0,
+		"oAP": "\/images\/cml-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cml-snapshot.png": {
+		"ft": 32768,
+		"iS": 27775,
+		"oA": 0,
+		"oAP": "\/images\/cml-snapshot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/col-icon.png": {
+		"ft": 32768,
+		"iS": 5017,
+		"oA": 0,
+		"oAP": "\/images\/col-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/col-snapshot.png": {
+		"ft": 32768,
+		"iS": 32669,
+		"oA": 0,
+		"oAP": "\/images\/col-snapshot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/crl-icon.png": {
+		"ft": 32768,
+		"iS": 5543,
+		"oA": 0,
+		"oAP": "\/images\/crl-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/crl-snapshot.png": {
+		"ft": 32768,
+		"iS": 28959,
+		"oA": 0,
+		"oAP": "\/images\/crl-snapshot.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/enablers.jpg": {
 		"ft": 16384,
 		"iS": 58215,
 		"oA": 0,
 		"oAP": "\/images\/enablers.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/glover-thub.jpg": {
+		"ft": 16384,
+		"iS": 8194,
+		"oA": 0,
+		"oAP": "\/images\/glover-thub.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1103,6 +1161,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/taveras.jpg": {
+		"ft": 16384,
+		"iS": 6434,
+		"oA": 0,
+		"oAP": "\/images\/taveras.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/wade.jpg": {
 		"ft": 16384,
 		"iS": 3609,
@@ -1116,6 +1182,118 @@
 		"iS": 100354,
 		"oA": 0,
 		"oAP": "\/images\/why-graphic.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap1_enablers.jpg": {
+		"ft": 16384,
+		"iS": 640641,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap1_enablers.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap2_figure3.jpg": {
+		"ft": 16384,
+		"iS": 424792,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap2_figure3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap2_figure4.jpg": {
+		"ft": 16384,
+		"iS": 472446,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap2_figure4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap2_figure5.jpg": {
+		"ft": 16384,
+		"iS": 1639083,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap2_figure5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap3_figure1.jpg": {
+		"ft": 16384,
+		"iS": 616048,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap3_figure1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap3_figure2.jpg": {
+		"ft": 16384,
+		"iS": 863143,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap3_figure2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure10.jpg": {
+		"ft": 16384,
+		"iS": 869893,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure11.jpg": {
+		"ft": 16384,
+		"iS": 175658,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure6.jpg": {
+		"ft": 16384,
+		"iS": 797777,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure7.jpg": {
+		"ft": 16384,
+		"iS": 549264,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure8.jpg": {
+		"ft": 16384,
+		"iS": 449024,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap4_figure9.jpg": {
+		"ft": 16384,
+		"iS": 688763,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap4_figure9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/Intro_Figure1.jpg": {
+		"ft": 16384,
+		"iS": 371452,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/Intro_Figure1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/Intro_Figure2.jpg": {
+		"ft": 16384,
+		"iS": 584118,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/Intro_Figure2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2838,6 +3016,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/ie11.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/interactive.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/interactive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
