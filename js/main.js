@@ -25,8 +25,57 @@ if (scrollWidth === undefined) {
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------*/
+var scrollSpies=[];
+
+function isVisible(elem)
+{
+  var hearderHeight=65 +35;
+  var docViewTop = $(window).scrollTop()+headerHeight;
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = elem.offset().top;
+  var elemBottom = elemTop + elem.height();
+
+  //return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  return ((elemTop>docViewTop) && (elemTop<docViewBottom));
+}
+
+$(window).scroll(function(){
+  console.log('scrolling');
+  $($('.spy-group').get().reverse()).each(function(){
+    if(isVisible($(this))){
+      
+      $('.figure-nav a').removeClass('spy-current');
+      $('.spy-group').removeClass('spy-visible');
+
+      $($(this).attr('data-spy-nav')).addClass('spy-current');
+      $(this).addClass('spy-visible');
+      
+    }
+  });
+
+  $('.spy-group').css('background','transparent');
+  //$('.spy-visible').last().css('background','red');
+});
 
 $(document).ready(function(){
+  //sticky
+  if($('.stick').length){
+    $('.stick').sticky({
+      topSpacing: 65
+    });
+  }
+
+  $('.figure-nav a').click(function(){
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+  })
+
+  
+
 
   //init AOS
   AOS.init({

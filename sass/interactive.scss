@@ -1,0 +1,60 @@
+
+
+//interactive spyscroll diagram (chapter 2)
+
+.intro .figure-nav{
+	z-index: 10 !important;
+
+	a{
+		display:inline-block;
+		padding: 8px 12px;
+
+		background-color: #15A6B7;
+		border:0;
+		color:white;
+
+		&:hover{
+			background-color: #135257;
+			border:0;
+		}
+
+		&.spy-current{
+			background-color: #135257;
+		}
+	}
+}
+
+.spy-group{
+	padding-top: 100px;
+	margin-top: -100px;
+}
+
+.figure{
+	margin-bottom: 30px;
+
+	.figure-title{
+		border-bottom: 1px solid gray;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.figure-sidebar{
+		h5{
+			color: #D24A30;
+			font-size:16px;
+			margin-bottom: 6px;
+			border-bottom: 1px solid #cecece;
+			padding-bottom: 6px;
+			font-family: 'Open Sans',sans-serif;
+		}
+
+		ul{
+			font-size: 14px;
+
+			margin-bottom: 20px;
+		}
+	}
+
+	.figure-body{
+
+	}
+}
