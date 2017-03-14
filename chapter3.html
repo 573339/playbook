@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/variables-theme-2.css">
+	<link rel="stylesheet" href="css/flickity.css">
 
 	<!-- IE 10-11 style fix -->
 	<link rel="stylesheet" type="text/css" href="css/ie10.css" />
@@ -112,7 +113,7 @@
 							</li>
 						</div>
 
-							<div class="menu-divider">
+						<div class="menu-divider">
 							<li class="col-sm-4 contact-wrap">
 								<ul>
 									<li class="contact-img"><img src="images/taveras.jpg" class="img-responsive img-circle"></li>
@@ -272,30 +273,22 @@
 							<p>Cloud computing is DNI’s model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort. What this means in plain terms is the ability for end users to utilize parts of bulk resources and that these resources can be acquired quickly and easily.</p>
 
 
+
 							<!-- VIDEO -->
 
-						
-								<div class="row quote" data-aos="fade-left">
-									<div class="col-sm-2 col-md-2 col-lg-2">
-										<img src="images/cathy-thub.jpg" class="img-circle" width="100" height="100" >
-									</div>
-									<div class=" col-sm-9 col-md-9 col-lg-9">
-										<blockquote>
-											<p>“…the way the IC operates today or in legacy most of our business processes are tied to specific sensors and to specific agency’s closed production system – that is what we are trying t o break away from – we have much more power when we can integrate across the entire IC and we collaborate in real time……”</p>
-											<footer>- Cathy Johnston, Director for IC ITE and Digital Transformation, <cite title="Source Title">DIA response to transformation at DIA</cite></footer>
-										</blockquote>
-									</div>
+
+							<div class="row quote" data-aos="fade-left">
+								<div class="col-sm-2 col-md-2 col-lg-2">
+									<img src="images/cathy-thub.jpg" class="img-circle" width="100" height="100" >
 								</div>
-							
-
-
-							<!-- END VIDEO -->
-
-							<div class="container-fluid graphic">
-								<div class="row">
-									<img src="images/zoom/chap3_figure1.jpg" class="img-responsive imageZoom" data-aos="fade">
+								<div class=" col-sm-9 col-md-9 col-lg-9">
+									<blockquote>
+										<p>“…the way the IC operates today or in legacy most of our business processes are tied to specific sensors and to specific agency’s closed production system – that is what we are trying t o break away from – we have much more power when we can integrate across the entire IC and we collaborate in real time……”</p>
+										<footer>- Cathy Johnston, Director for IC ITE and Digital Transformation, <cite title="Source Title">DIA response to transformation at DIA</cite></footer>
+									</blockquote>
 								</div>
 							</div>
+							<!-- END VIDEO -->
 
 						</div>
 
@@ -303,6 +296,21 @@
 					</div>
 				</div>
 			</section>
+
+				<!-- Flickity HTML init -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="carousel-wrap">
+							<div class="carousel" data-flickity='{ "setGallerySize": false }'>
+								<div class="carousel-cell"><p>23</p></div>
+								<div class="carousel-cell"><p>24</p></div>
+								<div class="carousel-cell"><p>35</p></div>
+								<div class="carousel-cell"><p>99</p></div>
+								<div class="carousel-cell"><p>44</p></div>
+							</div>
+						</div>
+						</div>
+						</div>
 
 			<!-- CHAPTER 3 -->
 
@@ -405,7 +413,7 @@
 			</div>
 
 
-			<div class="next chapter4">
+			<div class="next-wrap chapter4">
 				<div class="container-fluid">
 					<div class="row chap-nav">
 						<a href="chapter4.html">Read Chapter 4</a>
@@ -456,6 +464,7 @@
 				});
 
 				</script>
+				<script src="js/flickity.js"></script>
 				<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true"></script>
 				<script src="js/bootstrap.js"></script>
 				<script src="js/bootstrap-select.js"></script>
