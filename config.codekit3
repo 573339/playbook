@@ -233,6 +233,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/variables-theme-1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1706,6 +1716,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery.singlePageNav.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.sticky-kit.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/jquery.sticky-kit.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

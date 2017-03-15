@@ -61,8 +61,8 @@ $(window).scroll(function(){
 $(document).ready(function(){
   //sticky
   if($('.stick').length){
-    $('.stick').sticky({
-      topSpacing: 65
+    $('.stick').stick_in_parent({
+      offset_top: 65
     });
   }
 

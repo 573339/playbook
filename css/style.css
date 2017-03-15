@@ -2231,22 +2231,126 @@ button:active:hover {
   cursor: pointer; }
 
 .intro .figure-nav {
-  z-index: 10 !important; }
-  .intro .figure-nav a {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #15A6B7;
-    border: 0;
-    color: white; }
-    .intro .figure-nav a:hover {
-      background-color: #135257;
-      border: 0; }
-    .intro .figure-nav a.spy-current {
-      background-color: #135257; }
+  position: relative;
+  background-color: white;
+  z-index: 10; }
+  .intro .figure-nav .figure-nav-top {
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #135257;
+    text-align: center; }
+    .intro .figure-nav .figure-nav-top span {
+      color: white;
+      line-height: 35px;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 2px; }
+  .intro .figure-nav .figure-nav-curve {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background-color: #135257; }
+    .intro .figure-nav .figure-nav-curve::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      margin-top: -10px;
+      background-color: white; }
+    .intro .figure-nav .figure-nav-curve.figure-nav-curve-left {
+      left: 0;
+      top: 0;
+      border-radius: 20px 0 0 20px; }
+      .intro .figure-nav .figure-nav-curve.figure-nav-curve-left::after {
+        right: 0;
+        border-radius: 12px 0 0 12px; }
+      .intro .figure-nav .figure-nav-curve.figure-nav-curve-left::before {
+        content: '';
+        z-index: 2;
+        position: absolute;
+        left: 100%;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 18.5px 0 18.5px 10px;
+        border-color: transparent transparent transparent #135257; }
+    .intro .figure-nav .figure-nav-curve.figure-nav-curve-right {
+      right: 0;
+      top: 0;
+      border-radius: 0px 20px 20px 0px; }
+      .intro .figure-nav .figure-nav-curve.figure-nav-curve-right::after {
+        border-radius: 0 12px 12px 0; }
+      .intro .figure-nav .figure-nav-curve.figure-nav-curve-right::before {
+        content: '';
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 18.5px 0 18.5px 10px;
+        border-color: transparent transparent transparent #fff; }
+  .intro .figure-nav .figure-nav-chevrons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 2px;
+    background-color: white; }
+    .intro .figure-nav .figure-nav-chevrons a {
+      display: inline-block;
+      padding: 8px 12px 8px 24px;
+      position: relative;
+      margin-left: 2px;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      background-color: #15A6B7;
+      border: 0;
+      color: white;
+      text-align: center; }
+      .intro .figure-nav .figure-nav-chevrons a:hover {
+        background-color: #135257;
+        border: 0; }
+        .intro .figure-nav .figure-nav-chevrons a:hover::after {
+          border-color: transparent transparent transparent #135257; }
+      .intro .figure-nav .figure-nav-chevrons a.spy-current {
+        background-color: #135257; }
+        .intro .figure-nav .figure-nav-chevrons a.spy-current::after {
+          border-color: transparent transparent transparent #135257; }
+      .intro .figure-nav .figure-nav-chevrons a::before {
+        content: '';
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 17.5px 0 17.5px 10px;
+        border-color: transparent transparent transparent #ffffff; }
+      .intro .figure-nav .figure-nav-chevrons a::after {
+        content: '';
+        z-index: 2;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 17.5px 0 17.5px 10px;
+        border-color: transparent transparent transparent #15A6B7; }
 
 .spy-group {
-  padding-top: 100px;
-  margin-top: -100px; }
+  padding-top: 180px;
+  margin-top: -180px; }
 
 .figure {
   margin-bottom: 30px; }
