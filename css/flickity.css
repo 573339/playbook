@@ -83,14 +83,14 @@ html, body {
   border: none;
   border-radius: 50%;
   background: white;
-  background: hsla(0, 0%, 100%, 0.75);
+  background: rgba(3, 81, 87, 0.75);
   cursor: pointer;
   /* vertically center */
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: white; }
+.flickity-prev-next-button:hover { background: #777777; }
 
 .flickity-prev-next-button:focus {
   outline: none;
@@ -127,7 +127,7 @@ html, body {
 }
 
 .flickity-prev-next-button .arrow {
-  fill: #333;
+  fill: #fff;
 }
 
 /* ---- page dots ---- */
