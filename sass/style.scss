@@ -207,63 +207,63 @@ padding-top: 30px;
 }
 
 .gradientBorder{
-	border-image: linear-gradient(to right, #72A94E 0%,#00A5B5 100%) 1 stretch;
-	border-style: solid;
-	border-width: 1px;
+border-image: linear-gradient(to right, #72A94E 0%,#00A5B5 100%) 1 stretch;
+border-style: solid;
+border-width: 1px;
 }
 
 .transition{
-	transition: .3s ease-out all;
+transition: .3s ease-out all;
 }
 
 
 /* Background 
 -----------------------------------------------------------------*/
 main>.background{
-	display:none;
+display:none;
 }
 
 .background {
-	height: 100%;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 0;
-	background-color:#000;
+height: 100%;
+left: 0;
+overflow: hidden;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 0;
+background-color:#000;
 
-	&::after{
-		content:'';
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: linear-gradient(to right, #72A94E 0%,#00A5B5 100%);
-		opacity: .5;
-	}
+&::after{
+content:'';
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(to right, #72A94E 0%,#00A5B5 100%);
+opacity: .5;
+}
 
-	.layer {
-		-webkit-background-size: cover;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 100%;
-		left: 0;
-		overflow: hidden;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		opacity: 1 !important;
-		filter: grayscale(1);
-		&.left-50{
-			z-index: 0;
-			@media(min-width:768px){
-				left: -50%;
-			}
-		}
-	}
+.layer {
+-webkit-background-size: cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+left: 0;
+overflow: hidden;
+position: absolute;
+top: 0;
+width: 100%;
+opacity: 1 !important;
+filter: grayscale(1);
+&.left-50{
+z-index: 0;
+@media(min-width:768px){
+left: -50%;
+}
+}
+}
 }
 
 .bg-inside{
@@ -1718,9 +1718,9 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-	@media only screen and (max-device-width : 1024px){
-		background-attachment: scroll;
-	}
+@media only screen and (max-device-width : 1024px){
+background-attachment: scroll;
+}
 }
 
 .assessing {
@@ -1773,15 +1773,15 @@ background-image: url("../images/sections/chap2-02.jpg");
 -----------------------------------------------------------------------------------*/
 
 .modal-header {
-	border:none !important;
+border:none !important;
 
-	.close{
-		position: relative;
-		z-index: 999;
-	}
+.close{
+position: relative;
+z-index: 999;
+}
 }
 
-.next {
+.next-wrap {
 position:relative;
 font-size:18px;
 color:#fff;
@@ -1878,7 +1878,7 @@ font-weight:lighter;
 -----------------------------------------------------------------------------------*/
 
 .intro-section {
-	margin:90px 0;
+margin:90px 0;
 }
 
 .bookcover {
@@ -1910,11 +1910,11 @@ height: 65px;
 }
 
 .top-nav-line img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -10px;
-	margin-left: -92px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -10px;
+margin-left: -92px;
 }
 
 #article-banner {
@@ -2035,9 +2035,9 @@ display:block;
 padding:5px;
 border-bottom: 1px solid #e1e1e1;
 display: inline-block;
-	&:last-child{
-		border-bottom:0;
-	}
+&:last-child{
+border-bottom:0;
+}
 }
 
 .contact-wrap ul li {
@@ -2122,11 +2122,13 @@ line-height: 35px;
 }
 
 .wht-lead {
-color:#fff;
-font-family: 'Open Sans', sans-serif;
-line-height: 35px;
-font-size:21px;
-font-weight:lighter;
+color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
 .content-section {
@@ -2408,43 +2410,103 @@ margin-bottom:40px;
 margin-bottom:50px;
 }
 
+.carousel-wrap {
+	position: relative;
+    /* display: block; */
+    height: 565px;
+}
+
+.compute >img {
+	    padding: 0 0 15px 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-slide > b {
+	color:#035157;
+}
+
+.desktop > img {
+	box-shadow: 5px 5px #c2c2c2;
+}
+
+
 /*  TERRELL'S SECTION--CHAPTER 4
 -----------------------------------------------------------------------------------*/
 
 .list-style span {
-	color: #035157;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:bold;
+color: #035157;
+font-family: 'Open Sans', sans-serif;
+font-weight:bold;
 }
 
 .spacing {
-	margin-bottom:20px;
+margin-bottom:20px;
 }
 
 .global span {
-	text-transform:uppercase;
+text-transform:uppercase;
 
 }
 
 .cordian-wrap {
 margin-top:30px;
-	
+
 }
 
 .panel-body img {
-	margin-bottom:20px;
+margin-bottom:20px;
 }
 
 .cloud > img {
-	margin-right:12px;
+margin-right:12px;
 }
 
+.play a {
+display: inline-block;
+border-radius: 70px;
+font-size: 50px;
+background-color: #00A6B6;
+padding: 18px;
+border: none;
+}
+
+.ivr-wrap {
+margin:80px 0;
+}
+
+.play-panel {
+margin:20px 0;
+}
+
+
+/*  TERRELL'S SECTION--CHAPTER 4 INTERACTION
+-----------------------------------------------------------------------------------*/
+
+.board{
+position:relative;
+clear:both;
+padding: 30px;
+display: inline-block;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+cursor:pointer;
+}
+
+.nav-tabs > li > a {
+background-color:#035157;
+}
+
+.nav-tabs > li > a:hover {
+background-color: #00a6b6;
+}
 
 
 /*  TERRELL'S SECTION--CHAPTER 5
 -----------------------------------------------------------------------------------*/
 .no-border {
-	border-bottom:none !important;
+border-bottom:none !important;
 }
 
 
@@ -3980,7 +4042,7 @@ padding-bottom:30px;
 }
 }
 .about-video-box{
-margin: 0 auto 30px;
+margin: 0 auto 95px;
 max-height: 400px;
 max-width: 635px;
 position: relative;
@@ -4125,7 +4187,7 @@ width: 65px;
 transition:all 0.2s linear;
 display: block;
 .fa{
-padding-top: 15px;
+padding-top: 10px;
 width: 55px;
 &:before {
 display: block;
@@ -5645,25 +5707,21 @@ border:none;
 color: #777777;
 @include rem(font-size, 12px);
 border-color:#e1e1e1;
-border-radius: 0;
+border-radius: 50%;
 font-weight: 600;
-margin-right: -1px;
-padding: 16px 43px 14px 43px;
+margin-right: 20px;
+padding: 20px;
 text-transform: uppercase;
 -webkit-transition: all 0.2s linear;
 transition: all 0.2s linear;
 }
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
-background: #f9f9f9;
+background:  #00A6B6;
 border-color:#e1e1e1;
 color: #222222;
 }
-.nav-tabs > li > a:hover{
-background: #f9f9f9;
-border-color:#e1e1e1;
-color: #222222;
-}
+
 .tab-content{
 margin-bottom: 100px;
 padding-top: 30px;
