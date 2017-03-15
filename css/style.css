@@ -3760,7 +3760,7 @@ header.top-menu {
     position: relative;
     z-index: 999; }
 
-.next {
+.next-wrap {
   position: relative;
   font-size: 18px;
   color: #fff;
@@ -4007,9 +4007,11 @@ blockquote p {
 .wht-lead {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  line-height: 35px;
-  font-size: 21px;
-  font-weight: lighter; }
+  line-height: 40px;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: left;
+  letter-spacing: 1px; }
 
 .content-section {
   padding-top: 65px;
@@ -4207,6 +4209,22 @@ ol.list-style {
 .vid-wrap {
   margin-bottom: 50px; }
 
+.carousel-wrap {
+  position: relative;
+  /* display: block; */
+  height: 565px; }
+
+.compute > img {
+  padding: 0 0 15px 0;
+  margin: 0 auto;
+  display: block; }
+
+.text-slide > b {
+  color: #035157; }
+
+.desktop > img {
+  box-shadow: 5px 5px #c2c2c2; }
+
 /*  TERRELL'S SECTION--CHAPTER 4
 -----------------------------------------------------------------------------------*/
 .list-style span {
@@ -4228,6 +4246,37 @@ ol.list-style {
 
 .cloud > img {
   margin-right: 12px; }
+
+.play a {
+  display: inline-block;
+  border-radius: 70px;
+  font-size: 50px;
+  background-color: #00A6B6;
+  padding: 18px;
+  border: none; }
+
+.ivr-wrap {
+  margin: 80px 0; }
+
+.play-panel {
+  margin: 20px 0; }
+
+/*  TERRELL'S SECTION--CHAPTER 4 INTERACTION
+-----------------------------------------------------------------------------------*/
+.board {
+  position: relative;
+  clear: both;
+  padding: 30px;
+  display: inline-block; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  cursor: pointer; }
+
+.nav-tabs > li > a {
+  background-color: #035157; }
+
+.nav-tabs > li > a:hover {
+  background-color: #00a6b6; }
 
 /*  TERRELL'S SECTION--CHAPTER 5
 -----------------------------------------------------------------------------------*/
@@ -5505,7 +5554,7 @@ ol.list-style {
       padding-bottom: 30px; } }
 
 .about-video-box {
-  margin: 0 auto 30px;
+  margin: 0 auto 95px;
   max-height: 400px;
   max-width: 635px;
   position: relative;
@@ -5639,7 +5688,7 @@ ol.list-style {
     transition: all 0.2s linear;
     display: block; }
     .youtube-iframe .play-video .fa {
-      padding-top: 15px;
+      padding-top: 10px;
       width: 55px; }
       .youtube-iframe .play-video .fa:before {
         display: block;
@@ -6799,21 +6848,16 @@ ol.list-style {
     font-size: 12px;
     font-size: 0.85714rem;
     border-color: #e1e1e1;
-    border-radius: 0;
+    border-radius: 50%;
     font-weight: 600;
-    margin-right: -1px;
-    padding: 16px 43px 14px 43px;
+    margin-right: 20px;
+    padding: 20px;
     text-transform: uppercase;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  background: #f9f9f9;
-  border-color: #e1e1e1;
-  color: #222222; }
-
-.nav-tabs > li > a:hover {
-  background: #f9f9f9;
+  background: #00A6B6;
   border-color: #e1e1e1;
   color: #222222; }
 
