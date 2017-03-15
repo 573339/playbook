@@ -9292,7 +9292,7 @@ ol.list-style {
 
 /* line 4041, ../sass/style.scss */
 .about-video-box {
-  margin: 0 auto 30px;
+  margin: 0 auto 95px;
   max-height: 400px;
   max-width: 635px;
   position: relative;
@@ -9475,7 +9475,7 @@ ol.list-style {
 }
 /* line 4186, ../sass/style.scss */
 .youtube-iframe .play-video .fa {
-  padding-top: 15px;
+  padding-top: 10px;
   width: 55px;
 }
 /* line 4189, ../sass/style.scss */
