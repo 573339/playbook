@@ -2401,8 +2401,6 @@ position:relative;
 margin-bottom:50px;
 }
 .divider {
-border-bottom:1px solid #53565A;
-padding-bottom:40px;
 margin-bottom:40px;
 }
 
@@ -2430,6 +2428,10 @@ margin-bottom:50px;
 	box-shadow: 5px 5px #c2c2c2;
 }
 
+.providers li {
+	text-decoration:none;
+	list-style-type:circle;
+}
 
 /*  TERRELL'S SECTION--CHAPTER 4
 -----------------------------------------------------------------------------------*/
