@@ -3784,6 +3784,18 @@ header.top-menu {
   height: 300px;
   margin-top: 50px; }
 
+.read-next-wrap {
+  /*padding: 50px; */
+  width: 800px;
+  /* text-align: center; */
+  /* top: 50%; */
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
 .chap-nav {
   text-align: center; }
 
@@ -3796,9 +3808,7 @@ header.top-menu {
   padding: 15px 30px;
   display: inline-block;
   position: absolute;
-  /* top: 266%; */
   left: 50%;
-  /* height: 30%; */
   width: 50%;
   margin: 10% 0 0 -25%; }
 
@@ -3912,14 +3922,6 @@ header.top-menu {
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: rgba(255, 255, 255, 0.2); }
 
-/*  TERRELL'S RESPONSIVE
------------------------------------------------------------------------------------*/
-@media screen and (min-width: 768px) {
-  .chap-nav a {
-    margin: 14% 0 0 -25% !important; } }
-@media screen and (min-width: 1200px) {
-  .chap-nav a {
-    margin: 9% 0 0 -25% !important; } }
 /*  TERRELL'S CONTACT 
 -----------------------------------------------------------------------------------*/
 .dropdown-menu {
@@ -4219,8 +4221,6 @@ ol.list-style {
   margin-bottom: 50px; }
 
 .divider {
-  border-bottom: 1px solid #53565A;
-  padding-bottom: 40px;
   margin-bottom: 40px; }
 
 .vid-wrap {
@@ -4241,6 +4241,10 @@ ol.list-style {
 
 .desktop > img {
   box-shadow: 5px 5px #c2c2c2; }
+
+.providers li {
+  text-decoration: none;
+  list-style-type: circle; }
 
 /*  TERRELL'S SECTION--CHAPTER 4
 -----------------------------------------------------------------------------------*/

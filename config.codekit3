@@ -15,10 +15,40 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/chapter1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter1.html",
+		"oF": 0
+		},
+	"\/chapter2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter2.html",
+		"oF": 0
+		},
+	"\/chapter3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter3.html",
+		"oF": 0
+		},
 	"\/chapter4.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/chapter4.html",
+		"oF": 0
+		},
+	"\/chapter5.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter5.html",
+		"oF": 0
+		},
+	"\/chapter6.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter6.html",
 		"oF": 0
 		},
 	"\/config.rb": {
@@ -1403,6 +1433,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/introduction.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/introduction.html",
 		"oF": 0
 		},
 	"\/inwidget\/cache": {
@@ -3169,6 +3205,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/promo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
