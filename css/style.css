@@ -2315,7 +2315,8 @@ button:active:hover {
       background-color: #15A6B7;
       border: 0;
       color: white;
-      text-align: center; }
+      text-align: center;
+      text-transform: uppercase; }
       .intro .figure-nav .figure-nav-chevrons a:hover {
         background-color: #135257;
         border: 0; }
