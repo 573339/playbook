@@ -2186,7 +2186,7 @@ button:active:hover {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 1;
     font-size: 48px;
     opacity: 0.6;
     color: white;
@@ -2369,6 +2369,23 @@ button:active:hover {
     font-size: 14px;
     margin-bottom: 20px; }
 
+.subSection-nav {
+  position: fixed;
+  left: 0;
+  top: 65px;
+  width: 100%;
+  height: 24px;
+  z-index: 10;
+  background-color: #F3F3F3;
+  color: #00A6B6;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .3s ease-out opacity;
+  transition: .3s ease-out opacity; }
+
+.scrolling .subSection-nav {
+  opacity: 1; }
+
 body {
   color: #333333; }
 
@@ -2458,7 +2475,7 @@ main {
         padding-bottom: 30px;
         padding-top: 30px; } }
 
-.gradientBorder, .chap-nav a, .intro a, .articles a {
+.gradientBorder, .chap-nav a, .intro > a, .articles a {
   -o-border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: -webkit-linear-gradient(left, #72A94E 0%, #00A5B5 100%) 1 stretch;
      border-image: linear-gradient(to right, #72A94E 0%, #00A5B5 100%) 1 stretch;
@@ -4024,7 +4041,7 @@ blockquote p {
   font-size: 30px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif; }
-.intro a {
+.intro > a {
   text-transform: uppercase;
   color: #00a6b6;
   padding: 10px 50px;

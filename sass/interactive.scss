@@ -190,3 +190,24 @@
 
 	}
 }
+
+.subSection-nav{
+	position: fixed;
+	left:0;
+	top: 65px;
+	width: 100%;
+	height: 24px;
+	z-index:10;
+
+	background-color: #F3F3F3;
+	color: #00A6B6;
+	text-align:center;
+	opacity:0;
+	transition: .3s ease-out opacity;
+
+	
+}
+
+.scrolling .subSection-nav{
+	opacity:1;
+}

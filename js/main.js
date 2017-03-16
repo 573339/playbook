@@ -1,3 +1,83 @@
+
+function updateSubsectionNav(subSection){
+  $('.subSection-nav .subSection-nav-title').text(subSection.title);
+  $('.subSection-nav-btn-prev').attr('data-target',subSection.index-1);
+  $('.subSection-nav-btn-next').attr('data-target',subSection.index+1);
+  if(subSection.index===0){
+    $('.subSection-nav-btn-prev').fadeOut();
+  }
+  else if(subSection.index===subSection.total-1){
+    $('.subSection-nav-btn-next').fadeOut();
+  }
+  else{
+    $('.subSection-nav-btn').fadeIn();
+  }
+}
+
+function hideSubsectionNav(){
+
+}
+
+function isVisible(elem)
+{
+  var headerHeight=65 +35;
+  var docViewTop = $(window).scrollTop()+headerHeight;
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = elem.offset().top;
+  var elemBottom = elemTop + elem.height();
+
+  //return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  return (((elemTop>=docViewTop) && (elemTop<=docViewBottom))||((docViewTop>=elemTop) && (docViewBottom<=elemBottom)));
+}
+
+function scanSubsections(){
+  console.log('scanning subsections');
+  var visible=[];
+  $('.subsection-nav-area').each(function(index){
+    if(isVisible($(this))){
+      visible.push({
+        element:  $(this),
+        title: $(this).attr('data-title'),
+        index: index,
+        total: $('.subsection-nav-area').length
+      });
+    }
+  });
+  if(visible.length){
+    //console.log(visible[visible.length-1].element.attr('data-title'));
+    updateSubsectionNav(visible[visible.length-1]);
+  }
+  
+}
+
+function initSubsections(){
+  console.log('init subsections');
+  scanSubsections();
+  $(window).scroll(function(){
+    scanSubsections();
+  });
+
+  $('.subSection-nav-btn-prev').click(function(){
+    event.preventDefault();
+    var target=$(this).attr('data-target');
+
+    $('html, body').animate({
+      scrollTop: $('.subsection-nav-area').eq(target).offset().top+100
+    }, 500);
+  });
+
+  $('.subSection-nav-btn-next').click(function(){
+    event.preventDefault();
+    var target=$(this).attr('data-target');
+
+    $('html, body').animate({
+      scrollTop: $('.subsection-nav-area').eq(target).offset().top+100
+    }, 500);
+  });
+}
+
+
 (function($) {
   "use strict";
 
@@ -27,21 +107,12 @@ if (scrollWidth === undefined) {
 -------------------------------------------------------------------------------*/
 var scrollSpies=[];
 
-function isVisible(elem)
-{
-  var hearderHeight=65 +35;
-  var docViewTop = $(window).scrollTop()+headerHeight;
-  var docViewBottom = docViewTop + $(window).height();
 
-  var elemTop = elem.offset().top;
-  var elemBottom = elemTop + elem.height();
 
-  //return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-  return ((elemTop>docViewTop) && (elemTop<docViewBottom));
-}
+
+
 
 $(window).scroll(function(){
-  console.log('scrolling');
   $($('.spy-group').get().reverse()).each(function(){
     if(isVisible($(this))){
       
