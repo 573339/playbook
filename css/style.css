@@ -2382,6 +2382,11 @@ button:active:hover {
   opacity: 0;
   -webkit-transition: .3s ease-out opacity;
   transition: .3s ease-out opacity; }
+  .subSection-nav .subSection-nav-btn {
+    display: inline-block;
+    width: 80px;
+    line-height: 24px;
+    color: #00A6B6; }
 
 .scrolling .subSection-nav {
   opacity: 1; }

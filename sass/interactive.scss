@@ -205,7 +205,12 @@
 	opacity:0;
 	transition: .3s ease-out opacity;
 
-	
+	.subSection-nav-btn{
+		display:inline-block;
+		width: 80px;
+		line-height: 24px;
+		color: #00A6B6;
+	}
 }
 
 .scrolling .subSection-nav{
