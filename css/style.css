@@ -2766,6 +2766,25 @@ header.top-menu {
   top: 0;
   width: 100%;
   z-index: 98; }
+  .top-nav-line .nav-brand {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+    color: white; }
+    .top-nav-line .nav-brand .header-branding {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 10px 0 6px;
+      letter-spacing: 2px;
+      font-weight: 300; }
+    .top-nav-line .nav-brand .header-branding-sub {
+      font-size: 14px;
+      font-family: 'Open Sans';
+      opacity: .8;
+      font-weight: normal;
+      text-transform: initial; }
   .top-nav-line #menu-open {
     background: #fff;
     border-bottom: 0 none;

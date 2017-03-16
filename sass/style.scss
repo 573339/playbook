@@ -586,6 +586,31 @@ width: 100%;
 z-index: 98;
 @extend .transition;
 
+	.nav-brand{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+
+		text-align: center;
+		color:white;
+
+		.header-branding{
+			font-size: 20px;
+			text-transform: uppercase;
+			margin: 10px 0 6px;
+			letter-spacing: 2px;
+			font-weight: 300;
+		}
+
+		.header-branding-sub{
+			font-size: 14px;
+			font-family: 'Open Sans';
+			opacity: .8;
+			font-weight: normal;
+			text-transform:initial;
+		}
+	}
+
 #menu-open{
 background: $whitecolor;
 border-bottom: 0 none;
