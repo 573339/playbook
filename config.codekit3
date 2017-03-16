@@ -33,12 +33,6 @@
 		"oAP": "\/chapter3.html",
 		"oF": 0
 		},
-	"\/chapter4.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/chapter4.html",
-		"oF": 0
-		},
 	"\/chapter5.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -200,16 +194,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/ie9-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/interactive.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/interactive-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1080,14 +1064,6 @@
 		"iS": 7477,
 		"oA": 0,
 		"oAP": "\/images\/icons\/scientists-4.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/icons\/security-icon.png": {
-		"ft": 32768,
-		"iS": 5671,
-		"oA": 0,
-		"oAP": "\/images\/icons\/security-icon.png",
 		"oF": 0,
 		"opt": 0
 		},
