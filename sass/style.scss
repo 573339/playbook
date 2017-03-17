@@ -2429,8 +2429,7 @@ color:#fff;
     font-size: 14px;
     font-weight: lighter;
     text-align: left;
-    letter-spacing: 2px;
-    line-height: 23px;
+    line-height: 27px;
     }
 
     h5 {
@@ -2530,6 +2529,24 @@ margin:20px 0;
 }
 
 
+.plays {
+
+h5 {
+	font-family: 'Oswald', sans-serif;
+    /* text-align: center; */
+    font-weight: lighter;
+    margin-bottom: 11px;
+    }
+
+    p {
+    text-transform:uppercase;
+    margin-top:10px;
+    font-size:11px !important;
+    width:115px;
+    display:inline-block;
+    }
+}
+
 /*  TERRELL'S SECTION--CHAPTER 4 INTERACTION
 -----------------------------------------------------------------------------------*/
 
@@ -2546,6 +2563,9 @@ cursor:pointer;
 
 .nav-tabs > li > a {
 background-color:#035157;
+width:115px;
+padding:20px 0;
+display: inline-block;
 }
 
 .nav-tabs > li > a:hover {
@@ -5759,7 +5779,6 @@ color: #777777;
 border-color:#e1e1e1;
 border-radius: 50%;
 font-weight: 600;
-margin-right: 20px;
 padding: 20px;
 text-transform: uppercase;
 -webkit-transition: all 0.2s linear;
