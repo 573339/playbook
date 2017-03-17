@@ -2887,6 +2887,14 @@ button:active:hover {
 .scrolling .subSection-nav {
   opacity: 1; }
 
+.play-number {
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: white;
+  font-size: 15px; }
+
 body {
   color: #333333; }
 

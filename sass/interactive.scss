@@ -190,6 +190,8 @@
 	}
 }
 
+//subsection navigation
+
 .subSection-nav{
 	position: fixed;
 	left:0;
@@ -215,3 +217,16 @@
 .scrolling .subSection-nav{
 	opacity:1;
 }
+
+//diagram 4.5 play numbers
+.play-number{
+	top: 4px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	color: white;
+	font-size: 15px;
+}
+
+
+
