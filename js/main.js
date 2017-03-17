@@ -135,7 +135,7 @@ $(document).ready(function(){
   //sticky
   if($('.stick').length){
     $('.stick').stick_in_parent({
-      offset_top: 100
+      offset_top: 89
     });
   }
 
