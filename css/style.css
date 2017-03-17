@@ -4382,6 +4382,9 @@ header.top-menu {
 .intro-section {
   margin: 90px 0; }
 
+.notch {
+  margin-top: -60px; }
+
 .bookcover {
   color: #fff;
   text-transform: uppercase;
