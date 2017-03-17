@@ -6131,21 +6131,14 @@ ol.list-style {
 
 .about-video-box {
   margin: 0 auto 95px;
-  max-height: 420px;
   max-width: 635px;
   position: relative;
   width: 100%; }
   .about-video-box p {
     font-size: 12px; }
-  @media (min-width: 768px) {
-    .about-video-box {
-      height: 420px; } }
   @media (max-width: 767px) {
     .about-video-box {
       max-width: 300px; } }
-  @media (max-width: 767px) {
-    .about-video-box .youtube-iframe {
-      height: 200px; } }
   .about-video-box .about-video-box-title {
     bottom: 0;
     display: block;
@@ -7480,26 +7473,21 @@ ol.list-style {
       -webkit-transition: all 0.2s linear;
       transition: all 0.2s linear; }
       .panel-default > .panel-heading a:after {
-        border-bottom: 5px solid #cd3333;
         border: 5px solid transparent;
         content: " ";
         margin-top: -8px;
         position: absolute;
         right: 23px;
         top: 50%;
-        border-bottom: none;
-        border-top: 5px solid #777777;
-        margin-top: -2px;
-        transform: rotate(0deg); }
+        transform: rotate(180deg);
+        border: 5px solid transparent;
+        border-top: 5px solid #777777; }
       .panel-default > .panel-heading a.collapsed {
         background: none;
         border: 1px solid #e1e1e1;
         color: #777; }
         .panel-default > .panel-heading a.collapsed:after {
-          border-bottom: none;
-          border-top: 5px solid #777777;
-          margin-top: -2px;
-          transform: rotate(180deg); }
+          transform: rotate(0deg); }
       .panel-default > .panel-heading a:hover {
         background: #f9f9f9;
         border: 1px solid #e1e1e1;
