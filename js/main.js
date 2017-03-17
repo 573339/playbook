@@ -132,6 +132,14 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function(){
+
+  $('#linkscroll-target a').click(function(){
+    event.preventDefault();
+    console.log('click');
+    $('html, body').animate({
+      scrollTop: $('#linkscroll-target').offset().top-89
+    }, 500);
+  })
   //sticky
   if($('.stick').length){
     $('.stick').stick_in_parent({
