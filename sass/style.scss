@@ -1814,41 +1814,42 @@ height:300px;
 margin-top: 50px;
 }
 
-.read-next-wrap {
-	/*padding: 50px; */
-    width: 800px;
-    /* text-align: center; */
-    /* top: 50%; */
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
+
 .chap-nav {
 text-align:center;
+padding-top: 50px;
+
+	&>a{
+		font-family: 'Open Sans',sans-serif;
+		text-decoration: underline;
+		font-weight:normal;
+		font-size: 16px;
+		color:white;
+	}
 }
 
-.chap-nav a {
-
-color:#fff;
-font-weight:lighter;
-font-size:24px;
-text-transform:uppercase;
-letter-spacing:2px;
-padding:15px 30px;
-display: inline-block;
-position: absolute;
-left: 50%;
-width: 50%;
-margin: 10% 0 0 -25%;
-@extend .gradientBorder;
-@extend .transition;
+.read-next-wrap a {
+	
+	width: 50%;
+	color:#fff;
+	font-weight:lighter;
+	font-size:24px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	padding:15px 30px;
+	display: inline-block;
+	margin-bottom: 14px;
+	@extend .gradientBorder;
+	@extend .transition;
 }
 
-.chap-nav a:hover {
+.read-next-wrap a:hover {
 background-color:#00a6b6;
 border:1px solid #00a6b6;
+}
+
+.read-next-wrap {
+
 }
 
 /*  TERRELL'S STYLES

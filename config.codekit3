@@ -33,6 +33,12 @@
 		"oAP": "\/chapter3.html",
 		"oF": 0
 		},
+	"\/chapter4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chapter4.html",
+		"oF": 0
+		},
 	"\/chapter5.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -197,6 +203,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/interactive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/interactive-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/jquery.mCustomScrollbar.css": {
 		"aP": 1,
 		"bl": 0,
@@ -254,6 +270,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/promo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -915,6 +941,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/enterprise-icon.jpg": {
+		"ft": 16384,
+		"iS": 14516,
+		"oA": 0,
+		"oAP": "\/images\/icons\/enterprise-icon.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/execute-6.png": {
 		"ft": 32768,
 		"iS": 13162,
@@ -1067,6 +1101,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/icons\/security-icon.png": {
+		"ft": 32768,
+		"iS": 5671,
+		"oA": 0,
+		"oAP": "\/images\/icons\/security-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/icons\/social-icon.png": {
 		"ft": 32768,
 		"iS": 7208,
@@ -1109,7 +1151,7 @@
 		},
 	"\/images\/james.jpg": {
 		"ft": 16384,
-		"iS": 3846,
+		"iS": 6880,
 		"oA": 0,
 		"oAP": "\/images\/james.jpg",
 		"oF": 0,
@@ -1125,7 +1167,7 @@
 		},
 	"\/images\/melissa.jpg": {
 		"ft": 16384,
-		"iS": 4401,
+		"iS": 8588,
 		"oA": 0,
 		"oAP": "\/images\/melissa.jpg",
 		"oF": 0,
@@ -1255,7 +1297,7 @@
 		},
 	"\/images\/taveras.jpg": {
 		"ft": 16384,
-		"iS": 6434,
+		"iS": 17117,
 		"oA": 0,
 		"oAP": "\/images\/taveras.jpg",
 		"oF": 0,
@@ -1279,7 +1321,7 @@
 		},
 	"\/images\/wade.jpg": {
 		"ft": 16384,
-		"iS": 3609,
+		"iS": 6643,
 		"oA": 0,
 		"oAP": "\/images\/wade.jpg",
 		"oF": 0,
@@ -1295,7 +1337,7 @@
 		},
 	"\/images\/zoom\/chap1_enablers.jpg": {
 		"ft": 16384,
-		"iS": 640641,
+		"iS": 627505,
 		"oA": 0,
 		"oAP": "\/images\/zoom\/chap1_enablers.jpg",
 		"oF": 0,
@@ -1303,7 +1345,7 @@
 		},
 	"\/images\/zoom\/chap2_figure3.jpg": {
 		"ft": 16384,
-		"iS": 424792,
+		"iS": 397953,
 		"oA": 0,
 		"oAP": "\/images\/zoom\/chap2_figure3.jpg",
 		"oF": 0,
@@ -1386,6 +1428,22 @@
 		"iS": 688763,
 		"oA": 0,
 		"oAP": "\/images\/zoom\/chap4_figure9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/chap6_uber.jpg": {
+		"ft": 16384,
+		"iS": 1003799,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/chap6_uber.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/zoom\/intro-why-graphic.jpg": {
+		"ft": 16384,
+		"iS": 423594,
+		"oA": 0,
+		"oAP": "\/images\/zoom\/intro-why-graphic.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1845,11 +1903,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/masonry.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/masonry.pkgd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3168,7 +3244,7 @@
 		"uL": 1
 		},
 	"\/sass\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
