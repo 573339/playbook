@@ -2849,10 +2849,6 @@ button:active:hover {
         border-width: 17.5px 0 17.5px 10px;
         border-color: transparent transparent transparent #15A6B7; }
 
-.spy-group {
-  padding-top: 180px;
-  margin-top: -180px; }
-
 .figure {
   margin-bottom: 30px; }
   .figure .figure-title {
@@ -4770,7 +4766,8 @@ ol.list-style {
   margin-bottom: 50px; }
 
 .graphic p {
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 12px; }
 
 .divider {
   margin-bottom: 40px; }
@@ -6134,19 +6131,21 @@ ol.list-style {
 
 .about-video-box {
   margin: 0 auto 95px;
-  max-height: 400px;
+  max-height: 420px;
   max-width: 635px;
   position: relative;
   width: 100%; }
+  .about-video-box p {
+    font-size: 12px; }
   @media (min-width: 768px) {
     .about-video-box {
-      height: 400px; } }
+      height: 420px; } }
   @media (max-width: 767px) {
     .about-video-box {
-      max-width: 280px; } }
+      max-width: 300px; } }
   @media (max-width: 767px) {
     .about-video-box .youtube-iframe {
-      height: 180px; } }
+      height: 200px; } }
   .about-video-box .about-video-box-title {
     bottom: 0;
     display: block;
@@ -7487,7 +7486,11 @@ ol.list-style {
         margin-top: -8px;
         position: absolute;
         right: 23px;
-        top: 50%; }
+        top: 50%;
+        border-bottom: none;
+        border-top: 5px solid #777777;
+        margin-top: -2px;
+        transform: rotate(0deg); }
       .panel-default > .panel-heading a.collapsed {
         background: none;
         border: 1px solid #e1e1e1;
@@ -7495,7 +7498,8 @@ ol.list-style {
         .panel-default > .panel-heading a.collapsed:after {
           border-bottom: none;
           border-top: 5px solid #777777;
-          margin-top: -2px; }
+          margin-top: -2px;
+          transform: rotate(180deg); }
       .panel-default > .panel-heading a:hover {
         background: #f9f9f9;
         border: 1px solid #e1e1e1;

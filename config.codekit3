@@ -781,6 +781,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/ei-1.png": {
+		"ft": 32768,
+		"iS": 34758,
+		"oA": 0,
+		"oAP": "\/images\/ei-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ei-2.png": {
+		"ft": 32768,
+		"iS": 34923,
+		"oA": 0,
+		"oAP": "\/images\/ei-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ei-3.png": {
+		"ft": 32768,
+		"iS": 35076,
+		"oA": 0,
+		"oAP": "\/images\/ei-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ei-4.png": {
+		"ft": 32768,
+		"iS": 34893,
+		"oA": 0,
+		"oAP": "\/images\/ei-4.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/enablers.jpg": {
 		"ft": 16384,
 		"iS": 58215,
@@ -1146,14 +1178,6 @@
 		"iS": 9921,
 		"oA": 0,
 		"oAP": "\/images\/james-thub.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/james.jpg": {
-		"ft": 16384,
-		"iS": 6880,
-		"oA": 0,
-		"oAP": "\/images\/james.jpg",
 		"oF": 0,
 		"opt": 0
 		},

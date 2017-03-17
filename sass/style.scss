@@ -2448,6 +2448,7 @@ margin-bottom:50px;
 }
 .graphic p {
 	margin-top:20px;
+	font-size: 12px;
 }
 .divider {
 margin-bottom:40px;
@@ -4094,19 +4095,23 @@ padding-bottom:30px;
 }
 .about-video-box{
 margin: 0 auto 95px;
-max-height: 400px;
+max-height: 420px;
 max-width: 635px;
 position: relative;
 width: 100%;
+
+p{
+	font-size: 12px;
+}
 @media(min-width:768px){
-height: 400px;
+height: 420px;
 }
 @media(max-width:767px){
-max-width: 280px;
+max-width: 300px;
 }
 .youtube-iframe{
 @media(max-width:767px){
-height: 180px;
+height: 200px;
 }
 }
 
@@ -5780,52 +5785,60 @@ padding-top: 30px;
 
 /* tab > accordion ----------------------------------*/
 .panel-default {
-border: none;
->.panel-heading {
-background: none;
-border-radius:0;
-border: none;
-color: #222;
-color: $whitecolor;
-padding:0;
-a{
-font-size:22px;
-background:#f9f9f9;
-border:1px solid #e1e1e1;
-color: #222;
-display: block;
-font-weight: 300;
-padding: 18px 19px;
-position: relative;
-width: 100%;
--webkit-transition: all 0.2s linear;
-transition: all 0.2s linear;
-&:after{
-border-bottom: 5px solid $myRed;
-border: 5px solid transparent; 
-content: " ";
-margin-top: -8px;
-position: absolute;
-right: 23px;
-top: 50%;
-}
-&.collapsed{
-background:none;
-border:1px solid #e1e1e1;
-color: #777;
-&:after{
-border-bottom:  none;
-border-top: 5px solid #777777;
-margin-top: -2px;
-}
-}
-&:hover{
-background:#f9f9f9;
-border:1px solid #e1e1e1;
-color: #222;
-}
-}
-}
+	border: none;
+	>.panel-heading {
+		background: none;
+		border-radius:0;
+		border: none;
+		color: #222;
+		color: $whitecolor;
+		padding:0;
+		a{
+			font-size:22px;
+			background:#f9f9f9;
+			border:1px solid #e1e1e1;
+			color: #222;
+			display: block;
+			font-weight: 300;
+			padding: 18px 19px;
+			position: relative;
+			width: 100%;
+			-webkit-transition: all 0.2s linear;
+			transition: all 0.2s linear;
+
+			&:after{
+				border-bottom: 5px solid $myRed;
+				border: 5px solid transparent; 
+				content: " ";
+				margin-top: -8px;
+				position: absolute;
+				right: 23px;
+				top: 50%;
+				border-bottom:  none;
+				border-top: 5px solid #777777;
+				margin-top: -2px;
+				transform: rotate(0deg);
+
+
+			}
+			&.collapsed{
+				background:none;
+				border:1px solid #e1e1e1;
+				color: #777;
+				&:after{
+					border-bottom:  none;
+					border-top: 5px solid #777777;
+					margin-top: -2px;
+					transform: rotate(180deg);
+				}
+			}
+			&:hover{
+				background:#f9f9f9;
+				border:1px solid #e1e1e1;
+				color: #222;
+			}
+		}
+	}
 }
 .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a{
 color: #777;
